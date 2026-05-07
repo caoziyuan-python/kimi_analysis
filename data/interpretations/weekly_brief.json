@@ -1,0 +1,56 @@
+{
+  "content": "本周外部反馈显示，用户在使用产品时可能遇到了一些新问题和挑战。以下是几个值得关注的信号：\n\n- 【Reasoning or usage questions appeared】可能与用户在文档创建后修改时遇到的困难有关。我会检查文档编辑错误率和重复使用文档编辑的频率。\n- 【Unclassified product issues appeared】可能与短信验证系统的问题有关。我会关注短信送达成功率、验证码请求率、验证成功率以及用户对短信问题的投诉频率。\n- 【Coding workflow comparisons appeared in external discussion】近期讨论频繁出现，可能与用户对不同AI编码模型的偏好和体验有关。我会检查WordPress插件开发成功率、成功插件开发成本、不同AI模型的用户留存率以及每任务的代币消耗率。\n- 【Pricing comparisons appeared in external discussion】近期讨论频繁出现，可能与用户对不同定价计划的比较和价值感知有关。我会检查从低级别到高级别的转化率以及Agent Swarm和KimiClaw的功能采用率。\n- 【Broad product comparisons appeared】近期讨论频繁出现，可能与用户在性能退化和成本增加时转向替代品有关。我会检查模型退化事件率、每任务完成的平均成本、特定模型的用户流失率以及不同模型的任务完成效率。\n- 【Coding workflow comparisons appeared in external discussion】近期讨论频繁出现，可能与用户在WordPress开发中对不同AI编码模型的偏好和体验有关。我会检查WordPress插件开发成功率、成功插件开发成本、不同AI模型的用户留存率以及每任务的代币消耗率。\n\n以上内容只用于提示关注方向，所有判断都需要内部数据验证。",
+  "generated_at": "2026-05-07T06:29:08+00:00",
+  "model": "moonshot-v1-8k",
+  "signal_count": 6,
+  "signals": [
+    {
+      "signal_key": "success__other__cognition",
+      "title": "Reasoning or usage questions appeared",
+      "stage": "success",
+      "status": "Newly observed this week",
+      "this_week": 1,
+      "historical": 0
+    },
+    {
+      "signal_key": "activation__other__bug",
+      "title": "Unclassified product issues appeared",
+      "stage": "activation",
+      "status": "Newly observed this week",
+      "this_week": 1,
+      "historical": 0
+    },
+    {
+      "signal_key": "other__vibe_coding__comparison",
+      "title": "Coding workflow comparisons appeared in external discussion",
+      "stage": "other",
+      "status": "Appears more frequent recently",
+      "this_week": 28,
+      "historical": 116
+    },
+    {
+      "signal_key": "conversion__pricing__comparison",
+      "title": "Pricing comparisons appeared in external discussion",
+      "stage": "conversion",
+      "status": "Appears more frequent recently",
+      "this_week": 7,
+      "historical": 11
+    },
+    {
+      "signal_key": "retention__other__comparison",
+      "title": "Broad product comparisons appeared",
+      "stage": "retention",
+      "status": "Appears more frequent recently",
+      "this_week": 7,
+      "historical": 26
+    },
+    {
+      "signal_key": "retention__vibe_coding__comparison",
+      "title": "Coding workflow comparisons appeared in external discussion",
+      "stage": "retention",
+      "status": "Appears more frequent recently",
+      "this_week": 4,
+      "historical": 7
+    }
+  ]
+}

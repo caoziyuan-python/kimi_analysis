@@ -1,0 +1,966 @@
+{
+  "activation__agent__cognition": {
+    "boundary_note": "External signals cannot distinguish whether the confusion arises from inadequate documentation, a complex user interface, or a lack of feature awareness in the user's native language.",
+    "comment_count": 1,
+    "content_hash": "fc6844347b2326082073edc937bd7fb95d5fe810edfab118cc98b899522a300b",
+    "generated_at": "2026-05-07T02:26:15+00:00",
+    "how_i_interpret_this": "I think this might relate to users having difficulty understanding how to activate or access the 'agentswarm' feature within the platform. Possibly some comments may be encountering a language barrier or unfamiliarity with the interface, leading to confusion about the activation process. This could be about the need for clearer instructions or better onboarding for new users.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "activation rate for new features"
+    ],
+    "representative_comments": [
+      "aote 这agentswarm怎么开启？也在cc里能开吗 2天前河南 赞 1"
+    ],
+    "signal_key": "activation__agent__cognition"
+  },
+  "activation__other__bug": {
+    "boundary_note": "External signals cannot definitively determine whether one possible reading is with the SMS gateway, the user's mobile network, or the verification system implementation.",
+    "comment_count": 1,
+    "content_hash": "d9a4912696108fcce3ca3d65d425c728d444603ea882996a24d346cd26f021a1",
+    "generated_at": "2026-05-07T04:51:55+00:00",
+    "how_i_interpret_this": "I think this might relate to issues with the SMS verification system. Possibly some comments may be encountering problems with receiving verification codes via SMS, which could be due to technical issues with the SMS gateway or the user's mobile network. This could be about inconsistencies in the verification process across different platforms, as the user mentioned experiencing issues on both the web app and Android app.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "the SMS delivery success rate",
+      "the verification code request rate",
+      "the verification success rate",
+      "the frequency of user complaints about SMS issues"
+    ],
+    "representative_comments": [
+      "does anyone also experiencing login ussue with phone number, its shows verification code sent but no verification sms at all, i tried several times in a day on diffrent times, no success at all, the resend button also doing nothing, no matter how long i try no sms or code, does anyone encountered this issue & what might be the fix, currently im locked out of my account and unable to interact with kimi, i also tried using the web app, using the android app, also i found it confusing, when first time sign up, the verification sms was sent via whatsapp using some 'sim boss' bot, but now nothing, any reply might be helpful... &#32; submitted by &#32; /u/TWENTY8XO [link] &#32; [comments]"
+    ],
+    "signal_key": "activation__other__bug"
+  },
+  "activation__other__cognition": {
+    "boundary_note": "External signals cannot definitively indicate whether the confusion stems from a lack of clear communication or actual limitations in the product's functionality.",
+    "comment_count": 21,
+    "content_hash": "748c131bdedf46d2eafd6aa83ddb103c4afa87018cd2895afe4d3db6de01014e",
+    "generated_at": "2026-05-07T04:49:55+00:00",
+    "how_i_interpret_this": "I think this might relate to users' confusion regarding the product's capabilities and integration with other tools. Possibly some comments may be encountering difficulties in understanding how to utilize the product effectively, especially in terms of local deployment and integration with existing setups. This could be about the need for clearer documentation or guidance on how to use the product in various scenarios.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "subscription conversion rate",
+      "API key request frequency",
+      "local deployment success rate",
+      "feature request frequency for projects and TTS integration"
+    ],
+    "representative_comments": [
+      "Hi guys, I’m about to buy the subscription for the first time. How do you use it? I know Kimi has its own CLI tool for the subscription, but ChatGPT told me I can only use the subscription via the web UI. Is that true? Is there a way to get an API key like the one provided by z.ai so I can use it with different tools? BR and thanks in Advance, Eric &#32; submitted by &#32; /u/Suspicious-Edge877 [link] &#32; [comments]",
+      "Hi. Could you pls help newbie with local llms. I'm still learning all intricacies of this. So, I've got 4060ti and AMD 7 9800x3d (I've bought gpu year ago and after that upgraded CPU and other stuff). Also 32gb of ddr5. What am i lacking to run such models? Also, would be great to have about 100k of context Is it additional GPU? or additional regular RAM?",
+      "Hi! New to all this but it looks really cool so I wanna give a shot in using it to translate and tweak a couple of old raws I have. I didn a runthrough once but it was pretty slow. Didnt see that I had to install AMD HIP SDK first. After installing it, do I just go ahead and run processing again? Nothing else I have to do within the Koharu folder?",
+      "New to Kimi and loving most aspects except there doesn't seem to be any projects feature, this seems like an easy add am I just missing it &#32; submitted by &#32; /u/cuntyloc [link] &#32; [comments]",
+      "hey i got in the beta too! how did u get informed about what was in the beta?? i received the confirmation, turned on the switch thinghy and all but still was kinda lost on what they changed lol",
+      "Please forgive my ignorance, I am an amateur here: can I use this with Hermes or OC to boost the performance from my local models? Or is its own standalone agent harness?",
+      "where do you see this ? how can i test this ? I though they stopped allowing kimi code to use with opencalw",
+      "Does it come with qwen3 tts included or do we need to manually change the tts model ?"
+    ],
+    "signal_key": "activation__other__cognition"
+  },
+  "activation__vibe_coding__bug": {
+    "boundary_note": "External signals cannot distinguish whether friction comes from model capability, prompt patterns, or specific use cases.",
+    "comment_count": 2,
+    "content_hash": "0e0f931c6e6ebf6f827973c3b1d8a53cbabaf74711776ea2411a62dc3a476b89",
+    "generated_at": "2026-05-07T04:51:41+00:00",
+    "how_i_interpret_this": "I think this might relate to installation and configuration issues that some comments may be encountering with the Kimi CLI and the Antigravity Kimi Code Extension in VSCode. Possibly some comments may be running into environmental path problems or compatibility issues with specific coding models. This could be about the software not recognizing the Kimi CLI path correctly or a limitation in the available coding models.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "Kimi CLI installation error rate",
+      "environmental path configuration issues",
+      "coding model selection frequency",
+      "error logs from Kimi CLI"
+    ],
+    "representative_comments": [
+      "I would need help with the following problem: I installed kimi-cli (verified with kimi --version) I installed the Antigravity Kimi Code Extension (VSCode) &gt; logged in I'm getting the error mentioned in the title. Windows Environmental PATH exists. I tried in Extension Settings &gt; Kimi CLI path: - Empty - ...\\bin\\ - ...\\bin\\kimi.exe - ...\\bin\\kimi-cli.exe Nothing works. https://preview.redd.it/bjuybt40vwxg1.png?width=450&format=png&auto=webp&s=edeb23ac0dae902689b80f7504533452ad08168a https://preview.redd.it/3r5yjz6ovwxg1.png?width=453&format=png&auto=webp&s=3812aadc6e91b770eafea97e27018d4386e23fa7 https://preview.redd.it/ms8pg1e2vwxg1.png?width=635&format=png&auto=webp&s=242eebddfb6a179105e27403b0f98eebbf23268d &#32; submitted by &#32; /u/dryn07 [link] &#32; [comments]",
+      "Russellvile 为什么我的kimi coding plan 只能选一个coding模型，不能用k2.6模型 2天前广东 赞 回复"
+    ],
+    "signal_key": "activation__vibe_coding__bug"
+  },
+  "activation__vibe_coding__cognition": {
+    "boundary_note": "External signals cannot distinguish whether the confusion stems from a lack of documentation, insufficient onboarding processes, or inherent complexity in the product setup.",
+    "comment_count": 13,
+    "content_hash": "72935cc1a29bba01b5b1b9734507da9970c287925c8e268d49a6bc5575be3f62",
+    "generated_at": "2026-05-07T02:18:03+00:00",
+    "how_i_interpret_this": "I think this might relate to users facing difficulties in understanding how to integrate the product with their local coding environments. Possibly some comments may be encountering issues with configuration settings and are seeking guidance on best practices. This could be about the need for clearer documentation or more accessible support for new users.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "local integration error rate",
+      "documentation access frequency",
+      "configuration change tracking",
+      "new model adoption rate"
+    ],
+    "representative_comments": [
+      "Is there good documentation of how to link it up to agents locally? I am using llama-cpp, and have qwen3.6-35B running, but I'm a little new to this, and would like to know what agents people are using, and how you configure them.",
+      "8aceMak1r 哈喽博主，请教下。windows系统，用的.claude/settings.json，配置kimi coding plan中的url和api key，想问下配置model name实际有没有作用？ 2天前福建 1 4",
+      "8aceMak1r 请教下。windows系统，用的.claude/settings.json，配置kimi coding plan中的url和api key，想问下配置model name实际有没有作用？ 2天前福建 赞 1",
+      "Noob question but is it possible to use those new models as coding assistant on a rtx 3070?",
+      "茜茜里芒果 求求看到我，我卸载重装了云端的kimiclaw，原来的工作空间下载备份了，请问如何上传呢？试了所有的办法都不行。。求求看到我 昨天 14:13江苏 赞 回复",
+      "What's wrong with Qwen Code? I'm not experienced so it's just a question.",
+      "银河的另一边 请教下大家，openclaw中用kimi coding plan，怎么切换到kimi2.6呢？ 昨天 16:42北京 赞 回复",
+      "WEWQZD Kimi code cli里面的模型是Kimi-for-coding，根本看不出来咋办 4天前中国香港 赞 1"
+    ],
+    "signal_key": "activation__vibe_coding__cognition"
+  },
+  "activation__vibe_coding__other": {
+    "boundary_note": "External signals cannot distinguish whether friction comes from model capability, prompt patterns, or specific use cases.",
+    "comment_count": 6,
+    "content_hash": "7c3ce5e31f0dd5451417d4fb3b38b3d9b428f9501ddb2e05d220b2f470a6ea3e",
+    "generated_at": "2026-05-07T04:50:35+00:00",
+    "how_i_interpret_this": "I think this might relate to users' initial setup and compatibility issues with different systems and configurations. Possibly some comments may be encountering difficulties in understanding how to integrate their existing tools with Kimi or if Kimi is suitable for their specific hardware. This could be about users seeking guidance on the technical requirements and compatibility of Kimi for vibe_coding.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "new user onboarding success rate",
+      "hardware requirement mismatch rate",
+      "user queries on integration with external tools",
+      "OS-specific activation drop-off rates"
+    ],
+    "representative_comments": [
+      "Hello. I’m a total coding noob. I’m trying to set up a website and wanted to get some help through Vivecoding, so I was looking into various LLMs. I heard that Kimi offers great value for the price, so I decided to check out Reddit. Is Kimi a great tool for Vivecoding? Also, what LLMs and CLIs are you using to support this? I’m really sorry for asking such a beginner-level question. Have a great day, everyone. &#32; submitted by &#32; /u/Medical_Resort5050 [link] &#32; [comments]",
+      "can i use my own llamacpp and venv ? i dont want to redownload whole libs again.",
+      "Any tweak to get this to run on Mac? Or is Mac version possible for you?",
+      "I have 16gb 5080 and 32gb ddr5, can I run it?",
+      "一会去跑 既然开源了，能不能出个详细的本地部署指南？ 45分钟前福建 赞 回复",
+      "Can I run this on MacBook Pro m5, 24gb"
+    ],
+    "signal_key": "activation__vibe_coding__other"
+  },
+  "conversion__agent__comparison": {
+    "boundary_note": "External signals cannot definitively indicate whether the comparison is based on accurate information about our product's capabilities or if it's influenced by misinformation or personal biases.",
+    "comment_count": 3,
+    "content_hash": "de4f4a8cf1dcb56783f2a240730734717ceb6cfbbc80075fcdb158341e28a72a",
+    "generated_at": "2026-05-07T05:49:10+00:00",
+    "how_i_interpret_this": "I think this might relate to users comparing our product with alternatives and seeking advice on whether to invest in our service. Possibly some comments may be uncertain about the cost-effectiveness and scalability of our agent service. This could be about users weighing the benefits of our product against the competition and their existing solutions.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "conversion rate of trial users to paid subscribers",
+      "user retention rate after trial"
+    ],
+    "representative_comments": [
+      "I'm very impressed by Agent Swarm from the YouTube videos and a small trial use case of mine but it is kind of unclear how many I can run in consumption and if it is really worth it or if it can be replaced by my own CLI using some other model. People who have used it, please guide me if I should go ahead and purchase the plan or continue using what I have. I have DeepSeek V4, Qwen and OpenAI but purely the number of swarms it can deploy is tempting. &#32; submitted by &#32; /u/Ok_Firefighter3363 [link] &#32; [comments]",
+      "We are trying to decide which cluster is best for us. Hgx 8x hgx h200 is EoL and not available anymore according to suppliers in Europe? Is an hgx or dgx 8x b200 cluster best $/token for rinning models like kimi k2.6 with token distributions between 20k and 200k per call? Any experiences/suggestions? &#32; submitted by &#32; /u/Jentano [link] &#32; [comments]",
+      "西红柿炒番茄 强不强先放一边，赠送的agent额度至少别的家让你用，这家agent体验额度是体验都不让你体验试吃都不让试吃，别人怎么开你的会员 2天前河北 赞 回复"
+    ],
+    "signal_key": "conversion__agent__comparison"
+  },
+  "conversion__agent__other": {
+    "boundary_note": "External signals cannot distinguish whether the high costs are due to user behavior, pricing structure, or technical inefficiencies in the agent's performance.",
+    "comment_count": 1,
+    "content_hash": "6b022f9ed5235677c816603d74debb4bb01c3c30efba01fe4867562b4dd43a56",
+    "generated_at": "2026-05-07T02:26:24+00:00",
+    "how_i_interpret_this": "I think this might relate to users encountering high costs associated with using the agent feature, possibly exceeding their monthly budget significantly. It could be about the pricing model or the efficiency of the agent in completing tasks within the allocated budget.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "monthly budget depletion rate",
+      "task completion rate",
+      "user churn rate after high-cost events"
+    ],
+    "representative_comments": [
+      "小红薯68E09591 199一个agent swarm任务干掉20+%月额度，你是真牛逼 8小时前上海 赞 回复"
+    ],
+    "signal_key": "conversion__agent__other"
+  },
+  "conversion__general_chat__other": {
+    "boundary_note": "External signals cannot distinguish whether the frustration stems from the product's actual limitations, the marketing strategy, or cultural differences in sales approaches.",
+    "comment_count": 1,
+    "content_hash": "759e69bd6e9b083531176f0cf303e700d7e3f1fc798ae1589c42400bf5030f4e",
+    "generated_at": "2026-05-07T02:25:46+00:00",
+    "how_i_interpret_this": "I think this might relate to users feeling pressured into making a purchase before they have had a chance to fully evaluate the product's capabilities. Possibly some comments may be encountering the upsell too early in their interaction, which could lead to frustration. This could be about the perception of the product's value not aligning with the timing of the payment request.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "conversion rate before upsell",
+      "abandonment rate post-upsell"
+    ],
+    "representative_comments": [
+      "BENCHAO kimi 这狗东西，现在问不到2个问题，就开始引导收费。都还没有对你的实际处理和写作能力考核，就弹购买计划， 2天前加拿大 赞 回复"
+    ],
+    "signal_key": "conversion__general_chat__other"
+  },
+  "conversion__other__comparison": {
+    "boundary_note": "External signals cannot distinguish whether the preference for certain platforms is due to cost, performance, or brand reputation.",
+    "comment_count": 6,
+    "content_hash": "6567bfa3d5f8835e6eab30a671b178af4f5ff309adb5851089516e2bd4f83ba4",
+    "generated_at": "2026-05-07T06:27:45+00:00",
+    "how_i_interpret_this": "I think this might relate to users comparing different AI programming platforms based on price, features, and usage limits. Possibly some comments may be looking for the best value for their budget and are considering both domestic and international options. This could be about users seeking advice on which service to choose based on their specific needs and constraints.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "conversion rate by pricing tier",
+      "user retention rate",
+      "feature usage frequency"
+    ],
+    "representative_comments": [
+      "2026 年 AI 编程套餐怎么选？国内外主流平台对比，帮你找到最合适的方案 一、快速对比（一眼选款） 平台 入门价 首月特惠 5h 用量参考 适合人群 智谱 GLM ¥49/月 — ~80 prompts 日常主力编程 MiniMax ¥29/月 — 600次 长任务、高频用户 阿里云百炼 ¥40/月 ¥7.9（新用户专享） ~1200次 低成本尝鲜（新用户） 火山引擎方舟 ¥40/月 ¥8.91（新用户专享） ~1000次 多模型对比（新用户） Kimi ¥49/月 — ~70 prompts 综合使用需求 腾讯云 ¥40/月 ¥7.9（新用户专享） ~1100次 腾讯生态新用户 Codex (ChatGPT) $8/月 — ~45 credits 追求最强编程模型 Gemini CLI Free — ~600次 零成本尝鲜 Antigravity Free — ~50 prompts 高额度需求（付费档） Claude Code $20/月 — ~300 prompts 追求原厂体验 二、国内平台详情（适配国内网络，使用更流畅） 1. 智谱 GLM (经常售罄) ¥49/月起，含 MCP 工具（视觉理解、联网搜索），工具覆盖广，日常编程主力首选，经官方核实，套餐用量及权益无变动。 套餐 价格 5h 用量 MCP 额度 周限制 Lite ¥49/月 ~80 prompts 100次/月 400次 Pro ¥149/月 ~400 prompts 1,000次/月 2,000次 Max ¥469/月 ~1,600 prompts 4,000次/月 8,000次 注：经官方核实，GLM-5 仅 Pro/Max 可用，消耗 3 倍额度；Lite 用户逐步灰度开放中，具体开放进度以官方通知为准。 支持工具：Claude Code、Cursor、Cline、Kilo Code、OpenCode、OpenClaw、TRAE 等 7+ 款（经核实，工具兼容性无变动） 智谱 GLM → 2. MiniMax ¥29/月起（按年订阅更优惠），以请求次数限制用量，无周限额，速度快（最高100TPS），支持图像理解、联网搜索 MCP 工具，适合高频使用、长任务编程，经官方文档核实，套餐价格、次数限制及速度参数真实有效。 套餐 价格（年付） 5h 请求次数 速度 套餐亮点 Starter ¥261/年（折¥21.75/月） 600次 ~50 TPS（低峰100TPS） 入门级开发场景 Plus ¥441/年（折¥36.75/月） 1500次 ~50 TPS（低峰100TPS） 2.5倍Starter用量 Plus 极速版 ¥882/年（折¥73.5/月） 1500次 ~100 TPS 极速推理，专业场景 Max ¥1071/年（折¥89.25/月） 4500次 ~50 TPS（低峰100TPS） 7.5倍Starter用量 Max 极速版 ¥1791/年（折¥149.25/月） 4500次 ~100 TPS 大量编程辅助需求 Ultra 极速版 ¥8091/年（折¥674.25/月） 30000次 ~100 TPS 硬核开发者超大量需求 支持工具：Claude Code、Cursor、Cline、Kilo Code、Roo Code、OpenCode、OpenClaw、TRAE、Codex CLI（经官方核实，10+工具已适配） MiniMax 官方订阅 → 3. 阿里云百炼 (经常售罄) 首月特惠（Lite ¥7.9、Pro ¥39.9）仅限新用户专享，性价比拉满，8 款模型覆盖，5h用量透明，适合低成本尝鲜（新用户优先），经官方核对，特惠活动真实有效，用量参数准确。 套餐 价格 5h 用量 周限制 首月特惠 Lite ¥40/月 ~1200次 ~9,000次 ¥7.9（新用户） Pro ¥200/月 ~6000次 ~45,000次 ¥39.9（新用户） 支持工具：Claude Code、Cursor、Cline、Kilo Code、OpenCode、OpenClaw、Qwen Code、Codex CLI（经核实，工具兼容性无变动） 阿里云百炼 → 4. 火山引擎方舟 首月 ¥8.91 仅限新用户专享，6 款模型自由切换，含 Auto 模式，用量限制清晰，适合需要多模型对比的新用户，经官方核对，特惠活动及用量参数真实有效。 套餐 价格 首月特惠 5h 用量 周限制 Lite ¥40/月 ¥8.91（新用户） ~1000次 ~8000次 Pro ¥200/月 ¥44.91（新用户） ~5000次 ~40000次 支持工具：Claude Code、OpenCode、OpenClaw、TRAE（其他工具兼容性建议以官方文档为准，经核实，无额外兼容工具新增） 火山引擎方舟 → 5. Kimi ¥49/月起，绑定 Kimi 会员，额外含 AI 建站、文档处理、PPT 生成等权益，用量限制明确，适合综合使用需求，经官方核实，套餐权益及用量参数真实有效。 备注：Moderato 档及以上支持 Claude Code / Roo Code / Cline，其他工具兼容性建议以官方文档为准（经核实，无变动）。 套餐 价格 额度倍数 5h 用量 周限制 Andante ¥49/月 1x ~70 prompts 350次 Moderato ¥99/月 4x ~280 prompts 1400次 Allegretto ¥199/月 20x ~1400 prompts 7000次 Allegro ¥699/月 60x ~4200 prompts 21000次 2026 年 3 月更新：经官方核实，3 倍额度活动已转为永久权益，无截止日期。 注册 Kimi → 6. 腾讯云 (经常售罄) 首月 ¥7.9 仅限新用户专享，同时支持 OpenAI 和 Anthropic 双协议，配置 Claude Code 最方便，用量透明，适合腾讯生态新用户，经官方核对，特惠活动及用量参数真实有效。 套餐 价格 首月 5h 用量 周限制 Lite ¥40/月 ¥7.9（新用户） ~1100次 ~8500次 Pro ¥200/月 ¥39.9（新用户） ~5500次 ~42500次 腾讯云 → 三、国际平台详情（需科学上网，追求顶级模型首选） 1. Codex (ChatGPT) $8/月起，GPT-5.3-Codex 模型，限时 2 倍 Codex 速率（2026 年 2 月起），追求最强编程模型首选。 套餐 价格 本地 5h 用量 云端 5h 用量 Go $8 与 Free 相同 与 Free 相同 Plus $20 ~45-225 credits ~10-60 credits Pro $200 ~300-1500 credits ~50-400 credits 1 credit ≈ 5 tokens（本地任务）/ 25 tokens（云端任务）。 Codex (ChatGPT) → 2. Gemini CLI Free 起，额度宽松，无周限额，零成本尝鲜首选，适合偶尔使用的用户。 套餐 价格 分钟限制 日限制 Free Free 60 req/min 1,000 req/day Pro $20 120 req/min 1,500 req/day Ultra $200 120 req/min 2,000 req/day Gemini CLI → 3. Antigravity Google AI 编程工具，Free 档有周限，付费档采用“5H 窗口 + 周限”双限制，额度比同价位多数产品宽裕，用量限制明确，适合高额度需求用户。 套餐 价格 限制方式 5h 用量 周限制 Free Free 动态周限 ~50 prompts 250次 Pro $20 5H 窗口 + 周限 ~500 prompts 2500次 Ultra $200 5H 窗口 + 周限 ~5000 prompts 25000次 Antigravity → 4. Claude Code Anthropic 官方编程工具，Sonnet 4 代码能力处于第一梯队，用量参考明确，适合追求原厂体验的用户。 套餐 价格 用量 5h 用量参考 周限制参考 Pro $20 无公开标准 ~300 prompts 1500次 Max 5x $100 5x Pro ~1500 prompts 7500次 Max 20x $200 20x Pro ~6000 prompts 30000次 Pro 计划仅一条通用限制；Max 计划 Sonnet 有独立限制，均 7 天滚动重置。Opus 需额外购买 extra usage。 Claude Code → 四、选购建议（按预算直接选，不踩坑） 预算 推荐方案 零成本 codebuddy, qwen-code, trae, Gemini CLI / Antigravity / Codex Free ¥50 以内/月 阿里云百炼 Lite 首月 ¥7.9、Minimax Starter ¥29 ¥100 左右/月 MiniMax Max 极速版 ¥199（速度最快）、Kimi Moderato ¥99（会员权益） ¥200 以内/月 Codex Plus $20（最强模型）、火山方舟 Pro ¥200（多模型切换） ¥200+/月 智谱 GLM Pro ¥149 + Codex Plus 组合",
+      "&gt; As long as the models are open, the big cloud providers have strict advantage, because even if some open model gets ahead, they can just serve it from their infra Why would I want to use it, though? If, say, Anthropic were to serve a hypothetical Kimi K5.0 from their infra, seems like they&#x27;d keep their pricing where it is. If I can use that same model from kimi.com&#x2F;Kimi Code, for less money (which seems like a safe bet in this scenario), then I wouldn&#x27;t use Anthropic&#x27;s offering. Even if Anthropic did lower prices, I doubt they&#x27;d be able to match kimi.com&#x2F;Kimi Code. &gt; ... and do it better than everyone else. Why would you assume this? That doesn&#x27;t follow. &quot;Better&quot; has diminishing returns, and all of these companies have impressively scaled up already, and will continue to scale further in the coming years. And, regardless, I would absolutely use someone else&#x27;s infra if it cost, say, 20% less, even if inference was a bit slower, or I hit rate limits more often (not usage limits, rate limits).",
+      "Hey man, here&#x27;s how to properly spend your 50 bucks and get the most bang for the $$:opencode go - $10 a month gets you decent allowance with latest GLM, MiniMax, and Kimi. Windsurf - $20 gives u access to nearlly all models.For me, I&#x27;m having these two subscriptions plus: shared Codex plans &amp; shared Kimi coding Allegretto from Chinese resellers for around $10.I only use the Claude Opus&#x2F;Sonnet inside Windsurf after everything is crystal clear, or I want to let it handle tricky stuff where other models can&#x27;t address. I use GLM&#x2F;Kimi for everything else. And Windsurf offers free models all the time.",
+      "返回 转到“kimi” r/kimi • 3天前 qwertyalp1020 关注帖子 保存 隐藏 举报 Can't Decide Between Codex/Claude and Kimi Plans Question & Help I've been stuck and can't choose between 100$ Codex and Claude plans, and I saw Kimi K2.6 released. How's the usage limits and performance in their 40$ and 100$ plans. Worth it over the prev 2 options? Thanks! 赞同 15 反对 21 转到评论",
+      "Q5_K_S is 16Gb, Q5_K_M is 19Gb. Is it a big drop in quality? I am choosing what to download for 24G VRAM",
+      "75%的医用茅台 如果不用seed，就不要买字节的coding plan了 9小时前浙江 1 6"
+    ],
+    "signal_key": "conversion__other__comparison"
+  },
+  "conversion__other__other": {
+    "boundary_note": "External signals cannot definitively indicate whether the pricing structure is the primary concern or if the service's capacity is insufficient for user needs.",
+    "comment_count": 8,
+    "content_hash": "cc6a0dc1c561a4797c5e7f2e30e1b3bdc35dc8343fc146bc08a6795e4d279c16",
+    "generated_at": "2026-05-07T06:27:00+00:00",
+    "how_i_interpret_this": "I think this might relate to users' perceptions of pricing and usage limits. Possibly some comments may be encountering issues with the service's capacity or are considering alternatives. This could be about the adequacy of the service's pricing tiers in relation to usage demands.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "monthly usage cap exceedance rate",
+      "upgrade conversion rate following cap exceedance",
+      "average session duration"
+    ],
+    "representative_comments": [
+      "K2.5 was already pretty decent so I would try this. Starting at $15&#x2F;month: https:&#x2F;&#x2F;www.kimi.com&#x2F;membership&#x2F;pricing edit: Note that you can run it yourself with sufficient resources (e.g., companies), or access it from other providers too: https:&#x2F;&#x2F;openrouter.ai&#x2F;moonshotai&#x2F;kimi-k2.6&#x2F;providers",
+      "If you’re serious about local models, 128GB is finally worth it, but only if you’ll actually use it beyond the hype.",
+      "阿米果 。。。。用了半年从来没有上限过，昨天晚上到上限了要等3h，着急用升了个档，这不是白升了嘛，能退钱吗 昨天 21:30上海 2 回复",
+      "小红薯63936200 消耗很快的，经常用的话699那个档位可能才够吧，我试了andante，塞牙缝都不够的 昨天 11:10广东 2 5",
+      "老湾搭建独立站 写的免费试用，然后不让提交任务，一次免费试用都给不起，我还敢充会员？拜拜您勒 8小时前广东 赞 回复",
+      "yusenthebot 结合价格，这太强了有点 2天前美国 4 4",
+      "沫悠酥 确实还可以，就是额度少了点 昨天 10:08北京 1 回复",
+      "小猫爱兔兔 我也是啊，49套餐，怎么整 1天前上海 赞 回复"
+    ],
+    "signal_key": "conversion__other__other"
+  },
+  "conversion__pricing__comparison": {
+    "boundary_note": "External signals cannot definitively determine the impact of pricing on user retention or the extent to which feature awareness influences subscription upgrades.",
+    "comment_count": 18,
+    "content_hash": "9225b40be328f2637349f77ccbc512cd4dcafd550b1a413660167a65216c8456",
+    "generated_at": "2026-05-07T06:25:51+00:00",
+    "how_i_interpret_this": "I think these comments might be highlighting a comparison between different pricing plans and the perceived value of the services offered. Possibly some comments may be trying to understand which plan offers the best cost-effectiveness and are seeking insights into the features and benefits of higher-tier subscriptions. This could be about users weighing the cost of tokens against the capabilities and usage of different models.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "conversion rate from lower to higher tiers",
+      "feature adoption rate for Agents Swarm and KimiClaw"
+    ],
+    "representative_comments": [
+      "I think in my testing, paying $20 towards accio work plus deepseek api gives you more api usage than the $20 kimi plan, But i guess its down to project and what you are doing with it, i also think people buying a $20 subscription to say kimi are not going to use flash or smaller models than the beefy k2.6, but with deepseek i find myself doing 80% of the planning,standalone site scaffolding and skeleton building with v4 flash (its really not bad) then the full phase pass with the v4 pro model, so i guess if you use my similar method or even another model thats free via web-chat, then you could go even further, but its all down to your personal preference, the harness you use, skills you use etc I also think the kimi k2.6 swarm thing could be interesting, i hope someone who actually uses kimi k2.6 replies so you get a clearer picture, in my VERY limit testing it seemed quite good, kimi k2.5 was horrendous, id say 9/10 tasks i had k2.5 test failed, with kimi k2.6 8/10 passed:) &#32; submitted by &#32; /u/shinigami__0 [link] &#32; [comments]",
+      "I’ve been testing Kimi Moderato in the past month and I’m considering moving to a higher tier subscription (either $39 or $99 one). First because of KimiCode usage (the cheapest subscription has relatively low usage, similar level to Claude Pro, but higher tiers usage seems significantly better). And second of all I curious about two features the higher tiers unlock: Agents swarm -&gt; but what’s the actual usecase for this? And how good and useful it is? (I’m talking mostly about the agents swarm within Kimi app, I know what agents swarm does in coding harnesses) KimiClaw -&gt; I guess it’s just a cloud instance of OpenClaw, but are you actually using it? What for? Is it good or there are some issues worth considering? &#32; submitted by &#32; /u/Real_Ebb_7417 [link] &#32; [comments]",
+      "找不到划算的AI编程套餐？我整理了国内7家平台价格对比 天天用AI，最深的痛就是token不够用 各大平台都推出了Coding专属套餐，但价格档位太乱，算起来头大。我整理了国内七大平台（智谱AI、Kimi、MiniMax、阿里·百炼、字节·方舟、百度·千帆、腾讯云）的最新价格对比，直接抄作业。 一句话选购指南： 试水/偶尔用 - 腾讯云Lite，首月7.9元 日常够用 - MiniMax Plus，49元/月 重度使用 - 智谱AI Max，469元/月 多模型切换 - 阿里·百炼Pro，200元/月 各家速览： MiniMax - 性价比卷王 Starter 29元/600tokens Plus 49元/1500tokens（大多数人选这个） Max 119元/4500tokens 支持最新M2.7，还有极速版 Kimi - 档位友好 从49→99→199→699，吃多少买多少，不浪费 字节方舟/百度千帆 - 大厂统一价 Lite 40元/1200tokens Pro 200元/6000tokens 多模型支持，用着放心 智谱AI - 追新首选 最新GLM-5.1直接用 Lite 49元/1200tokens，Pro 149元/6000tokens 腾讯云 - 羊毛首选 Lite 首月7.9元，原价40元/月 适合薅一波体验 完整持续更新： https://3cnv2683mv.coze.site 价格会变，我放在网页上持续维护，去这里看最新的肯定没错，部分coding plan可以享折扣。 希望这份整理能帮你省点时间，躲开token焦虑。觉得有用请点个赞，有价格变动欢迎提醒我更新。",
+      "Time to switch to Kimi k2.6 guys if you haven't already. For $20 a month you can buy the OpenCode Go coding plan (its actually $5 for the first month then $10) which gives you many more tokens on models like Kimi K2.6, and then you can pay for the rest of the usage. So for $20 a month of tokens of Kimi K2.6 you're basically getting the equivalent amount of tokens of the $100 plan. You can also use Qwen 3.6 35B A3B, which you can run on your local PC (as long as you have a decent graphics card). &#32; submitted by &#32; /u/bigboyparpa [link] &#32; [comments]",
+      "返回 转到“kimi” r/kimi • 1天前 antonusaca 关注帖子 保存 隐藏 举报 Where to buy Kimi k2.6 - Ollama vs Kimi Coding Plan? Discussion I have an Ollama Cloud Pro subscription for $20 per month, and they recently released support for Kimi K2.6. I’m curious if anyone knows if Ollama supports Agent Swarm and concurrent subagents from the Kimi Coding Plan Allegretto, which costs $39 per month. Alternatively, I’d appreciate any information on how to verify this functionality within Ollama. 赞同 17 反对 22 转到评论",
+      "Edit: sorry i meant to ask if you use it from kimi or fireworks ai asked a similar question in the zai glm subreddit about pricing and want to your thoughts as well/ i am not familiar with how the pricing works so i am curious what i the more cost effective and reliable option here. i mostly will use it for personal coding &#32; submitted by &#32; /u/SolitaireKid [link] &#32; [comments]",
+      "The reason nobody is pricing Kimi K2.6 at half the cost of the best closed source models is that there are too many providers of the same model, so the competition drives prices down and they have to charge far less than that. https:&#x2F;&#x2F;openrouter.ai&#x2F;moonshotai&#x2F;kimi-k2.6&#x2F;providers",
+      "If you don&#x27;t use a lot of quota the cheapest monthly Claude Code is $20, Kimi Code is $19, i.e. the cost difference is minuscule. Kimi wants my phone number on signup so a no-go for me."
+    ],
+    "signal_key": "conversion__pricing__comparison"
+  },
+  "conversion__pricing__other": {
+    "boundary_note": "External signals cannot distinguish whether the pricing confusion stems from a lack of clarity in communication or from actual limitations in the product's value proposition.",
+    "comment_count": 44,
+    "content_hash": "71022d0f119337a3b894a33ce28e667af3f9eae01467e46235bffa6c11342958",
+    "generated_at": "2026-05-07T04:48:58+00:00",
+    "how_i_interpret_this": "I think this might relate to users having difficulty understanding the pricing model and the value proposition of our subscription plans. Possibly some comments may be running into confusion regarding the allocation and usage of credits and requests. This could be about users needing more transparency and clarity on pricing and limits to make informed decisions.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "subscription plan conversion rate",
+      "abandonment rate at checkout"
+    ],
+    "representative_comments": [
+      "Hello. Could not find anything about real limits for subscription plans. Nothing about the amount of requests per 5 hours or per week, or tokens. They say allegretto gives 5x credits, but what are those credits at all? 5x of what? What are agent credits? Is one credit equal to X requests or tokens? What are the real limits? I want to compare the limits with other provider and decide if it is actually a good decision to buy a subscription directly via kimi site. Thanks in advance. &#32; submitted by &#32; /u/OlegPRO991 [link] &#32; [comments]",
+      "I went to the subscription plans page and it showed that it will refund the difference. I clicked upgrade and I didn't see any deductions applied from my previous plan. I paid the full price for the new upgrade. Do I get a refund later as a seperate payment to my bank account by kimi? How does it work? https://preview.redd.it/qlup3k2i4wxg1.png?width=1324&format=png&auto=webp&s=d9b4155aa34edffef8ff8815d49aa680bbfa00fd &#32; submitted by &#32; /u/PrtyGirl852 [link] &#32; [comments]",
+      "Pricing will be relative to how much money they could make being used for commercial hosting, so they wouldn't be cheaper than cloud hosts. It's the same reason memory is so expensive right now. There's a big industry which can directly convert these chips into cash, so they will always outbid consumers for them so long as there is large enough demand from the enterprises.",
+      "返回 转到“kimi” r/kimi • 2天前 studymaxxer 关注帖子 保存 隐藏 举报 what's the cheapest way to access Kimi k2.6 right now? Discussion i've decided I'm going to move to Kimi for some agentic workflows, what's the best option? 赞同 11 反对 27 转到评论",
+      "Have ads on the free plan they could make more money from free users so they don't take away features instead",
+      "冰狐 感觉你们干脆只保留最便宜49和最贵699得了，49可以网页端不排队，699挂虾编程基本够用，中间的档毫无用处，还不如再来个999和1999 10小时前陕西 赞 回复",
+      "小鲸鱼 kimi主要是coding额度太少了，毕竟不是专门的coding套餐，包括了agent之类的。之前开了49的在龙虾只能说30句话。。 18小时前云南 1 2",
+      "AI防御圈 没见过这么黑的，这不比抢劫还容易，发了3条消息就75%的限额，客服还不承认有问题，glm、minimax基本都用不完 共4张 13分钟前上海 赞 回复"
+    ],
+    "signal_key": "conversion__pricing__other"
+  },
+  "conversion__vibe_coding__comparison": {
+    "boundary_note": "External signals cannot definitively indicate whether the preference for alternatives is due to price, features, or brand reputation.",
+    "comment_count": 1,
+    "content_hash": "64167b2815da0eba39829da54da18092bd5e4a96b6a7f72bbeae19f9cae3506c",
+    "generated_at": "2026-05-07T02:25:29+00:00",
+    "how_i_interpret_this": "I think this might relate to users comparing our product, vibe_coding, with competitors' offerings. Possibly some comments may be finding alternatives like GLM5.1, Kimi k2.6, and MiniMax2.7, and are discussing the cost-effectiveness and platform support. This could be about users looking for similar functionalities at a lower price point.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "conversion rate for vibe_coding",
+      "discount code usage rates"
+    ],
+    "representative_comments": [
+      "刚看到字节的 Coding Plan 更新了 GLM5.1、Kimi k2.6、MiniMax2.7 抢不到 GLM Coding Plan 的可以试一试这个了，便宜量大，各种主流平台都支持 9折邀请码：现在订阅9折，低至36元，订阅越多越划算！立即订阅：O网页链接 邀请码：YWMEGDGZ"
+    ],
+    "signal_key": "conversion__vibe_coding__comparison"
+  },
+  "conversion__vibe_coding__other": {
+    "boundary_note": "External signals cannot distinguish whether the performance issues are due to scaling problems, temporary server overloads, or inherent limitations in the service architecture.",
+    "comment_count": 6,
+    "content_hash": "9ab5e62b297522d5f42387ba4dcfe5acd59d302f5a7d9fdf3235866d682a5e6a",
+    "generated_at": "2026-05-07T02:21:18+00:00",
+    "how_i_interpret_this": "I think this might relate to users' experiences with the subscription plans and their perceived value, particularly during peak usage times. Possibly some comments may be running into performance issues that affect their coding workflow, which could be about server overloads and response times. This could be about the balance between cost and service quality, as users discuss the adequacy of different plans for their coding needs.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "subscription plan conversion rates",
+      "user retention rates across different plans",
+      "API call frequency and distribution"
+    ],
+    "representative_comments": [
+      "前几天火山引擎给我发消息，方舟 Coding Plan 悄悄更新了一波——把 MiniMax 2.7、GLM 5.1、Kimi 2.6 这些最新版本全都塞进了订阅套餐里，而且不用抢购。 说实话，一个套餐把豆包、GLM、DeepSeek、Kimi 全打包，按需切着用的感觉确实挺香。 套餐内容 Lite — 40 元/月，每 5 小时 1200 次调用 Pro — 200 元/月，每 5 小时 6000 次调用 支持模型：Doubao-Seed-Code、MiniMax-M2.7、GLM-5.1、Kimi-2.6、DeepSeek-V3.2，Auto 模式自动调度，兼容 Cursor / Claude Code / Cline。 实际体验 我买的是 Lite 档，用下来有一个感受要说清楚：额度够用，但速度不是一直稳的。 遇到过 429 ServerOverloaded，卡在\"思考中\"状态超过 13 分钟，高峰期确实会排队。 Lite 档高峰期实测卡了 13 分钟 值不值 一个订阅，豆包 + GLM + Kimi + DeepSeek 全能用，不用分别买会员，不用抢额度。40 元/月对日常轻度编程来说不算贵。如果你在用 Claude Code 或 Cursor，方舟 Coding Plan 直接配置就能跑。 高峰期会慢，这个心里有数就行。",
+      "返回 转到“kimi” r/kimi • 6天前 BreakfastWooden8186 关注帖子 保存 隐藏 举报 Kimi 2.6 performance Discussion I want to sub to the 19$ plan for mainly refactoring/debugging a +50K lines of code project, so the question is, is quotas good? performance in large codebases if i will use it via kilo cli? and more, so if anyone got info about that, please help me before buying 赞同 19 反对 18 转到评论",
+      "无脑Kimi 第一不限购， 第二虽然有5小时和周限额但是你直接买199的计划就够你用了； 第三k2.5模型能力还凑合并且刚出了k2.6 code preview，能力和速度都不错； 第四coding plan可以给龙虾用， 第五199的套餐送kimi claw，2c8g，除了不能拿出公网IP外，能网页ssh登录服务器，等于是送了你一台服务器了。",
+      "You can easily add 3742 lines of code and remove 1077 lines on the $20 plan, my first app has way more then this that was made in my free time",
+      "franchbach 我买的199套餐，才勉强可以满足我个人开发一两个小项目的需求，再往下的别想了，分分钟超限额。 2天前浙江 2 7",
+      "吃点啥子来着呢 兄弟们统计bug修复了消耗还快吗，值得买吗？平时用来上班编程，买49套餐够用吗？ 10小时前四川 赞 11"
+    ],
+    "signal_key": "conversion__vibe_coding__other"
+  },
+  "other__agent__comparison": {
+    "boundary_note": "External signals cannot distinguish whether the challenges users face are due to the limitations of the AI models themselves, the complexity of the tasks at hand, or the specific domain knowledge required for effective utilization.",
+    "comment_count": 2,
+    "content_hash": "06994a7cbb8c05bee6be01a89305288745b02be03b31ba1a0544fc54fb0caf45",
+    "generated_at": "2026-05-07T06:28:45+00:00",
+    "how_i_interpret_this": "I think this might relate to users grappling with the complexity of choosing between different AI agent models based on their specific needs. Possibly some comments may be encountering difficulties in discerning the practical performance of these models against their benchmarks and marketing claims. This could be about the discrepancy between the theoretical capabilities of AI agents and their real-world application efficacy.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "task completion rate",
+      "latency in task execution",
+      "accuracy of diagnostics"
+    ],
+    "representative_comments": [
+      "拒绝选择困难症：Kimi、GLM、MiniMax三款新锐Agent模型到底该怎么选？ 最近一段时间，AI圈子里的风向变了。“大语言模型”这个词似乎不够时髦了，大家都在谈论“Agent（智能体）”。各家都在发力，试图让AI从“只会陪聊的打字机”进化为“能帮你干活的数字员工”。 但在实际应用中，很多开发者和企业面临一个头疼的问题：市面上的模型这么多，参数一个比一个吓人，跑分图表五颜六色，到底该选哪一个？ 今天，咱们就把目光锁定在近期关注度极高的三款国产旗舰级Agent模型——Kimi-K2.6、GLM-5.1 和 MiniMax-M2.7。抛开营销话术，我们直接从它们的技术白皮书和底层数据切入，看看这三位“AI打工人”各自的真实本事。 一、 核心选手画像：它们都是什么来头？ 1. Kimi-K2.6：自带“包工头”属性的全栈视觉极客 Kimi这次掏出了一个堪称庞然大物的架构。K2.6是一个总参数量达到1万亿（1T）、但单次激活参数控制在32B的MoE（混合专家）模型，支持高达256K的上下文窗口。 它的核心亮点在于“群体作战”和“视觉驱动”。它能像一个包工头一样，同时指挥300个子智能体（Sub-agents）并行处理多达4000个步骤的复杂任务。同时，它在前端代码和UI设计上表现出了极强的直觉，你丢给它一张设计图，它就能把带动画效果的交互界面给你敲出来。 2. GLM-5.1：专治各种“疑难杂症”的马拉松级Debug大师 如果你用过以前的各种AI模型写长代码，肯定遇到过这种事：刚开始进展神速，一旦遇到深层次的Bug，AI就开始“鬼打墙”，反复尝试旧办法，最后直接卡死。 拥有754B参数量的GLM-5.1，主攻的就是打破这种“能力天花板（Plateau）”。它被设计成一个极具耐心的马拉松选手，能在数百轮对话和数千次工具调用中保持清醒，不断复盘、试错、修正。用官方的话说：“它跑得越久，给出的结果越好”。 3. MiniMax-M2.7：精通办公软件的“多面手”与进化狂人 相比前两位的超大体量，229B参数量的MiniMax-M2.7显得更紧凑一些，但它的“自进化”能力极强。在内部测试中，它自己给自己做代码重构，搞了100多轮后居然把性能提升了30%。 它的接地气之处在于对职场人的高度友好：能直接对Word、Excel、PPT进行高保真、多轮的编辑输出。同时，它还没有丢掉娱乐属性，在角色一致性和情商方面表现出色，甚至被用来驱动带实时视觉反馈的3D互动空间（OpenRoom）。 二、 硬核能力对决：真刀真枪的横向对比 为了让大家看得更直观，我们把这三款模型拉到同一个框架下比一比。 回合一：代码与工程能力（谁是更强程序员？） 在业界公认的高难度代码基准测试（如SWE-Bench Pro）中，三者的表现咬得非常紧，都在尝试挑战甚至超越部分国际顶尖模型（如GPT-5.4）： Kimi-K2.6 拿下了 58.6 的高分。加上它特有的“保留思考（Preserve Thinking）”模式，在处理复杂且战线极长的代码项目时优势明显。 GLM-5.1 紧随其后，得分为 58.4。但它的杀手锏在于对真实终端环境（Terminal-Bench 2.0）和仓库级代码生成（NL2Repo）的掌控力，在面对高度模糊的工程需求时，它的独立排错能力首屈一指。 MiniMax-M2.7 也有 56.22 的亮眼表现。在实战中，它展现出了极强的系统级推理能力（比如查日志、对数据库），曾多次在3分钟内搞定生产环境的故障恢复，堪称“救火队长”。 回合二：Agent与工具调用（谁更会利用外物？） 长程任务管家： GLM-5.1是名副其实的长跑健将，如果你有一个需要AI独立挂机跑一整夜来解决的极其复杂的研发难题，GLM-5.1是不二之选，它能承受极深的迭代层数而不崩溃。 超级任务分解机： Kimi-K2.6的“Agent Swarm（智能体集群）”能力最适合大项目拆解，把一个大需求瞬间分配给几百个子AI同时干活，非常适合端到端的复杂系统构建。 职场办公利器： MiniMax-M2.7的工具箱最贴近日常白领打工人。在MM Claw复杂技能合规性测试中保持了97%的高分，修改Office三件套游刃有余。 回合三：部署与运行成本（谁的性价比更高？） 部署难度上，三家都非常默契地支持了目前主流的推理框架（如vLLM、SGLang、Transformers等）。 从体量上看，MiniMax-M2.7（229B）的硬件门槛相对较低。 Kimi-K2.6虽然有着1T的总参数，但得益于单次激活仅32B的MoE架构以及原生INT4量化技术的加持，实际推理效率和显存占用得到了很好的控制。 GLM-5.1（754B）作为非MoE的庞然大物，部署成本会更高，但它能在需要极高逻辑密度的复杂推理任务中值回票价。 三、 选型指南：对号入座，你该挑谁？ 分析了这么多，咱们落地到实际场景来抓个药方： 👉 选 Kimi-K2.6，如果你的核心需求是： 全栈开发与UI/UX设计： 需要AI看图写前端代码，或者处理大量的多模态（图文/视频）输入。 大架构任务统筹： 你需要构建一个极其庞大的Agent网络，让数百个AI分工协作完成从调研到输出的全链路任务。 👉 选 GLM-5.1，如果你的核心需求是： 后端深度Debug与复杂工程： 你的业务问题通常不是一问一答能解决的，而是需要AI在终端里自己查报错、自己改代码、反复试错好几百次。 极度抗拒“AI半途而废”： 你需要一个在长周期任务中不偷懒、不陷入死循环的硬核推理引擎。 👉 选 MiniMax-M2.7，如果你的核心需求是： 办公自动化与日常生产力： 需要AI直接处理和生成带格式的Word、Excel、PPT文档。 需要兼顾娱乐与情感交互： 除了写代码敲报表，你的应用场景还涉及到带有情绪价值的陪伴对话或拟真角色扮演。 高效的SRE（站点可靠性工程）运维： 需要快速定位并修复系统级故障，讲究一个“快准狠”。 结语：硅基流动免费调用附教程 跟着我的步骤，稳拿两张算力券： 注册账号 浏览器访问“硅基流动”官网，使用手机号一键注册。 电脑端访问网址：https://cloud.siliconflow.cn/i/wnNz6h7v 第一张券（实名认证） ：登录后，前往个人中心左侧边栏完成实名认证。认证成功后，系统会直接发放一张价值16元的算力体验券！ 第二张券（主页开工） ：回到硅基流动的主页/开工页面，通常会有一个活动或开工福利，点击领取，又能白嫖一张18元的算力体验券！ 生成 API 秘钥 在左侧菜单栏找到【API 密钥】。 点击【新建 API 密钥】，随便起个名字（比如 Agent-key）。 生成后，立刻复制这串长长的代码并保存好备用（这就是你的专属算力提取码，千万别泄露！）。 妥善保存 最后在模型广场翻牌子即可。可在线体验，也可给Agent提供算力。 数据来源说明：本文分析数据均提取自截至2026年4月可公开访问的Hugging Face平台各模型官方白皮书与技术文档（包含 MiniMaxAI/MiniMax-M2.7、moonshotai/Kimi-K2.6、zai-org/GLM-5.1），测试成绩引用自SWE-Bench、Terminal-Bench 2.0、HLE等业内公认基准评测。",
+      "&gt;Almost every open weight model launch this year has come with claims that it matches or exceeds Sonnet. I&#x27;ve been trying a lot of them and I have yet to see it in practice, even when the benchmarks show a clear lead. This has been my experience as well. I&#x27;ve been testing an agent built with Strands Agents which receives a load balancer latency alert and is expected to query logs with AWS Athena (Trino) then drill down with Datadog spans&#x2F;traces to find the root cause. Admittedly, &quot;devops&quot; domain knowledge is important here My notes so far: &quot;us.anthropic.claude-sonnet-4-6&quot; # working, good results &quot;us.anthropic.claude-sonnet-4-20250514-v1:0&quot; # has problems following the prompt instructions &quot;us.anthropic.claude-sonnet-4-5-20250929-v1:0&quot; # working, good results &quot;us.anthropic.claude-opus-4-5-20251101-v1:0&quot; &quot;us.anthropic.claude-opus-4-6-v1&quot; # best results, slower, more expensive &quot;amazon.nova-pro-v1:0&quot; # completely fails &quot;openai.gpt-oss-120b-1:0&quot; # tool calling broken &quot;zai.glm-5&quot; # seems to work pretty well, a little slow, more expensive than Sonnet &quot;minimax.minimax-m2.5&quot; # didn&#x27;t diagnose correctly &quot;zai.glm-4.7&quot; # good results but high tool call count, more expensive than Sonnet &quot;mistral.mistral-large-3-675b-instruct&quot; # misdiagnosed--somehow claimed a Prometheus scrape issue was involved &quot;moonshotai.kimi-k2.5&quot; # identified the right endpoints but interpreted trace data&#x2F;root cause incorrectly &quot;moonshot.kimi-k2-thinking&quot; # identified endpoint, 1 correct root cause, 1 missing index hallucination Using models on AWS Bedrock. I let Claude Code w&#x2F; Opus 4.7 iterate over the agent prompt but didn&#x27;t try to optimize per model. Really the only thing that came close to Sonnet 4.5 was GLM-5. The real kicker is, Sonnet is also the cheapest since it supports prompt caching The Kimi ones were close to working but didn&#x27;t quite make the mark"
+    ],
+    "signal_key": "other__agent__comparison"
+  },
+  "other__agent__other": {
+    "boundary_note": "External signals cannot definitively indicate whether the observed performance improvements are due to enhancements in the model's architecture, changes in operational protocols, or the specific nature of tasks being executed.",
+    "comment_count": 14,
+    "content_hash": "29e4eb2dfa6f95d956dc2636ab6d87cf2d8b9847248b8b55d420dfba44a165d7",
+    "generated_at": "2026-05-07T04:50:03+00:00",
+    "how_i_interpret_this": "I think this feedback might be pointing towards users' experiences and opinions on the capabilities of Kimi K2.6 as an agent. Possibly some comments may be impressed with the extended operational capabilities and the model's ability to handle complex tasks over longer periods. This could be about the efficiency and effectiveness of the agent in performing tasks that were previously challenging for other models.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "long-duration task completion rate",
+      "tool call success rate",
+      "user retention rate for extended agent interactions",
+      "error rates during tool calls"
+    ],
+    "representative_comments": [
+      "月之暗面发布了Kimi K2.6，这也是杨植麟的第一个X.6版本。 虽然版本号上只加了0.1，但这不是一次普通的版本更新。 K2.6能在单个工程任务中持续12小时、发起4000多次工具调用；在Agent Swarm场景中，官方称其可横向扩展到300个子agent、4000个协调步骤。 它开始真正“做事”了。 更有意思的是，就在K2.6发布前几天，月之暗面开始急招推理平台工程师，学历要求只有“本科”。 3月份招Coding agent工程师时，更是打出“不限学历”的旗号。 这个博士密度极高、论文产出如流水的头部AI公司，为什么突然降低学历门槛？ 答案就藏在K2.6里。 01 K2.6到底有多能干？ 官方披露了两个工程案例。 月之暗面的工程师让K2.6在Mac上部署Qwen3.5-0.8B模型，并用一门非常小众的编程语言Zig，来优化推理性能。 结果呢？K2.6跑了12个小时，发起了4000多次工具调用，迭代了14个版本，最终把推理速度从15 tokens/秒提升到193 tokens/秒，比LM Studio还快20%。 但这不是重点，重点在于，从来没有人教过K2.6怎么用Zig。都是它自己学的。 另一个案例更夸张。 K2.6接手了exchange-core，一个有8年历史的开源金融撮合引擎。这个引擎已经被优化到接近性能极限，但K2.6还是找到了突破口。 13个小时，1000多次工具调用，4000多行代码修改。K2.6像一个经验丰富的系统架构师，分析CPU火焰图、定位内存瓶颈、重构线程拓扑。最后，它把中等吞吐量提升了185%，性能吞吐量提升了133%。 这不是在做题，这是在解决真实的工程问题。 K2.6的能力可以归纳为四个方向，但每一个方向都不是简单的“更强”。 第一是长周期编码。 以前的AI写代码，基本上是“一次性交付”。你给它一个需求，它写完代码就结束了。但K2.6不一样，它能持续工作十几个小时，自己读文件、跑测试、看报错、改代码、再测试，一直循环到任务完成。 它能跨语言泛化，Rust、Go、Python都没问题。它能处理不同领域的任务，前端、DevOps、性能优化都能搞定。 企业测试的反馈很直接。Blackbox.ai说：“K2.6为开源模型树立了新标准，尤其是在长周期、agent风格的编码工作流中。”Factory.ai的内部测试显示，K2.6比K2.5提升了15%，指令遵循更好，推理更彻底，编码错误更少。 第二是代码驱动的设计。 你给K2.6一个简单的提示，比如“做一个科技公司的落地页”，它不只是生成HTML和CSS，它会给你一个完整的前端界面，包含结构化布局、精心设计的首屏、交互组件、滚动触发的动画效果。 更厉害的是，K2.6已经不满足于做静态前端了。它开始做简单的全栈应用，从用户认证到数据库操作，轻量级的场景它都能搞定。 月之暗面建立了内部的Kimi Design Bench，分为视觉输入任务、落地页构建、全栈应用开发、通用创意编程四个类别。K2.6在这些类别中的表现，已经可以和Google AI Studio掰手腕了。 第三是agent群体协作。 这是K2.6最让人震撼的地方。 K2.5的Agent Swarm已经很强了，能协调100个子agent、执行1500个步骤。但K2.6直接把规模扩大到300个子agent、4000个协调步骤。 这不单纯是数量上的堆叠。 K2.6能让不同的agent发挥各自的专长：有的负责广泛搜索，有的负责深度研究；有的分析大规模文档，有的负责长篇写作；有的生成文档，有的生成网站，有的生成幻灯片，有的生成电子表格。 这些agent在K2.6的协调下，形成了一个整体。 举个例子。 你给K2.6上传一篇高质量的天体物理学论文，它能把这篇论文转化为一个“技能”。 提取论文的推理流程、可视化方法、写作风格。然后，它能基于这个技能，产出一篇40页、7000字的新论文，外加一个包含20000多条记录的数据集，以及14张天文级图表。 第四是主动式agent。 K2.6不再是传统的那种，只有你发了指令它才会行动的工具，K2.6开始主动工作了。 月之暗面的强化学习基础设施团队做了一个实验，让K2.6支持的agent自主运行5天，负责监控、事件响应、系统操作。 结果这个agent从告警到解决，全程自己搞定，不需要人工介入。 K2.6在OpenClaw和Hermes Agent这样的持久化agent平台上表现出色。它能跨多个应用程序持续运行，7×24小时执行任务，主动管理日程、执行代码、协调跨平台操作。 月之暗面建立了内部的Claw Bench，覆盖编码任务、即时通讯生态系统集成、信息研究与分析、定时任务管理、内存利用五个领域。在所有指标上，K2.6的任务完成率和工具调用准确性都显著优于K2.5。 在基准测试中，K2.6的评分就足以说明一切问题。 HLE-Full（带工具）得分54.0，超过GPT-5.4的52.1和Claude Opus 4.6的53.0。DeepSearchQA的F1分数92.5，准确率83.0。SWE-Bench Pro得分58.6， SWE-Bench Verified达到80.2。 02 月之暗面也想要一个郭达雅 就在几天前，月之暗面开始急招Kimi Code平台推理工程师。这个岗位的学历要求是“本科”，补充一点，图片中这个“7年”经验是招聘发起者自己打错了，实则为“3年”。 在这个博士学历云集、论文产出如流水的头部AI公司里，竟然会急招一个本科学历的推理平台工程师。 更有意思的是，3月份月之暗面招Coding agent工程师时，更是打出“不限学历”的旗号。 这不是HR写错了要求。AI竞争的主战场，正在从实验室的算法创新，转移到代码智能和agent这样，生产环境的工程落地。 你说这不巧了吗，3月份从DeepSeek离职，4月份加入字节的郭达雅，他最擅长的正是agent和代码智能。 月之暗面也想要一个郭达雅吗？ 可能不止于此。月之暗面想要的，是一个完整的agent生态。 当模型公司开始从论文、榜单、聊天框走向自动写代码、自动调用工具、自动完成任务时，瓶颈不再只是算法，也可能是工程师手里的网关、路由、限流、日志和成本表。 推理平台工程师到底是做什么的？ 这个岗位的核心业务，是为agent搭建稳定、可观测、成本可控的模型调用基础设施。 具体来说，就是在模型和应用之间建一套调度系统，让几十上百次的模型调用能稳定跑起来，成本可控，出问题能查。 工作内容包括这么几块。 第一是模型网关。 agent调用模型时不是直接访问模型API，而是通过网关统一管理。网关负责请求分发、协议转换、认证鉴权，还要处理不同模型提供商的接口差异。月之暗面已有K系列模型，但Kimi Code这类平台仍需要多provider适配。 第二是多模型路由。 不是所有任务都需要最强的模型。简单的代码补全用轻量模型就够了，复杂的架构设计才需要重模型。 路由系统要根据任务类型、上下文长度、响应速度要求，自动选择合适的模型，避免出现高射炮打蚊子这样的情况。 这需要你得了解不同的模型，知道它们完成不同任务的成本分别是多少，也需要实时的性能监控和动态调整。 第三是成本控制。 推理模型的token消耗是普通模型的数倍。 比如OpenAI的o1系列，它的reasoning_tokens可能是output_tokens的10多倍。这些内部推理标记虽然不返回给用户，但算力也被消耗掉。 如果没有精细的限流降级、token用量统计分析，成本会失控。你需要设计配额系统、优先级队列、降级策略，保证核心业务不受影响的同时控制成本。 第四是链路管理。 就跟快递一样，货物到哪了，你得能在APP上查到。 当一个agent任务涉及几十次模型调用、几十次工具调用时，就得追踪好调用链路上的每一环。 用户说“帮我修这个bug”, agent可能读了十几个文件、调了五次模型、跑了三次测试，最后失败了。你需要知道是哪一步出了问题，是模型推理超时、工具调用失败、还是上下文窗口溢出。 传统的日志系统很难追踪这种复杂链路，需要专门为agent设计的分布式追踪、性能监控、异常告警系统。 第五是状态管理。 之前模型推理是没有状态这个概念的。传统的对话场景很简单，用户输入一句话，模型返回一段文字，一次请求就结束了。 但agent不同，它需要进行多轮推理链，一个任务可能触发几十甚至上百次模型调用。 所以进入了agent时代，AI需要记住状态的不是模型本身，而是围绕模型搭建的agent runtime。平台要记录任务进度、工具调用结果、中间产物和失败现场，并在下一次模型调用时把必要上下文重新组织进去。 早上8点我给模型安排了一个任务，下午我再看这个模型的时候，它就应该是执行过任务的模型。那么任务执行的结果、执行了多少次等信息，就是模型的状态。 那又是为什么这个技术岗位的学历门槛只有本科呢？ 杨植麟心里明白，如今的月之暗面不缺能开发算法的博士，事实上“高学历”对于月之暗面来说不是什么稀缺玩意，相反，能把推理能力工程化、产品化的人才是。 招聘简介里强调“能在需求还不明确的时候自己判断该做什么”、“还在一线写代码”，这种人才在传统互联网大厂的基础架构团队里有，在AI公司里却是稀缺的。 17岁的高中生陈广宇曾以实习生身份加入Kimi，并成为《Attention Residuals》的共同一作；4月初，Kimi又推出“穿越计划”，尚未毕业的实习生只要通过3到6个月考察，就能提前拿到正式Offer和期权。 一个博士密度极高的模型公司，开始把高中生、在校生纳入核心人才池，本质上说明AI公司的用人逻辑变了。 学历仍是信号，但不再是门票。 真正值钱的是能不能在实际问题里证明自己的价值。 最具代表性的是月之暗面在今年3月份发布的那个“不限学历”的Coding agent工程师岗位。 那张招聘海报上写着：“熟悉Claude Code、Cursor、Codex、Cline等代码辅助工具，越多越好；能源源不断地说出Codex比Claude Code垃圾在哪里；能源源不断地说出Claude比GPT-5垃圾在哪里。” 这些要求看起来有点玩笑的意味，但背后的逻辑很清晰。 月之暗面要的不是论文作者，他们要的是真正用过这些工具、知道坑在哪里、能快速迭代产品的工程师。 月之暗面急需这样的人，因为他们的模型能力已经到位。 然而要让这些能力真正支撑起大规模agent应用，基础设施是瓶颈。当Anthropic的Claude Code上线不到一年ARR就达到25亿美元时，杨植麟看到的是一个信号。 下一个阶段比的不只是谁的模型参数更多、benchmark分数更高，比的是谁能让这些能力稳定、高效、低成本地服务于真实业务场景。 这是一个从0到1构建新基础设施的机会，也是推理计算时代的新职业方向。当AI公司开始为“本科学历”的工程师开出有竞争力的薪资和期权时，说明整个行业的重心正在转移。 从实验室到生产环境，从论文到产品，从算法创新到工程落地，这条路上需要的不只是能发顶会论文的博士，也需要能把系统跑起来、让用户用得爽的工程师。 03 月之暗面的深层逻辑 把这些线索串起来，月之暗面的战略路径很清晰。 第一层是模型能力，K系列模型覆盖通用、推理、代码三个方向。 第二层是工程化，推理平台让模型能力可规模化调用。 第三层是生态，开放API，让第三方基于Kimi构建产品。 这条路在国外是走不通的，企业级AI和开发者工具市场已经被Anthropic、OpenAI、Google等公司高度挤压，后来者很难再用同样路径打开局面。 可是在国内，情况刚好相反。C端产品的竞争已经白热化，豆包、元宝、千问，每家都在烧钱拉用户。但B端市场，尤其是开发者工具市场，还有巨大空间。 于是月之暗面选择了两条腿走路。 一方面学Claude Code，自己做编程工具Kimi Code，这是直接面向开发者的产品。 另一方面又让自己的模型适配Claude Code，通过API的方式让第三方工具调用Kimi的能力，这也是为啥K2.6这么强调agent和代码能力。 从技术演进的角度看，这是非常合理的。 AI行业正在从“模型创新驱动”转向“工程化落地驱动”。继续卷基座模型，比谁的性能更好，可普通用户已经感受不到差异了。 关键问题从“模型够不够聪明”变成了“能不能帮我把事儿做成”。 这就需要agent能力，回归到代码智能的基本功上。 月之暗面的战略选择背后，还有一个更深层的逻辑：数据飞轮。 代码任务和普通聊天不同，普通聊天很难判断对错，但代码有天然的verifier。 能不能编译、单测过不过、CI是否失败、bug是否复现、benchmark是否提升、diff是否合理，这些都是客观的评价标准。 用户每一次让agent改代码，都会产生高价值轨迹。 读了哪些文件、用了哪些工具、哪里报错、怎么修复、测试结果如何。这些轨迹可以反过来做eval、SFT、RL、拒答策略、工具调用训练。 这就是为什么所有大厂都在抢代码智能这个赛道，擅长agent和代码智能的郭达雅也因此变得人人都在疯抢。 不只是因为开发者市场有付费能力，更是因为代码任务能够形成训练闭环。 在合规授权、脱敏和企业协议允许的前提下，用户的每一次使用，都会让这些轨迹可以反过来成为eval、SFT、RL和工具调用训练的材料。 这种飞轮效应一旦启动，会形成强大的竞争壁垒。先发优势会越来越明显，后来者很难追赶。 月之暗面看到了这一点，所以他们在急招能“做过基础设施”、“还在一线写代码”的工程师。这不只是填补团队空缺，而是在抢占一个战略窗口期。 2026年是推理模型从实验室走向大规模应用的转折年，谁能先把推理能力工程化、让开发者用得爽，谁就能占据生态位。 技术能力只是一方面，时间窗口更关键。 国内市场的竞争更加激烈。 智谱的GLM-Code、阿里的通义灵码、字节的豆包代码助手，每家都在投入重兵。而就在这个节骨眼上，郭达雅从DeepSeek离职，加入字节跳动Seed团队，担任agent方向负责人之一。 这个消息在AI圈引发震动，不只是因为他的技术能力，更是因为他的技术标签太精准了，直接暴露了字节整个2026年的战略方向。 郭达雅是代码智能与大模型推理方向的顶尖人才。 从毕业到进入DeepSeek，郭达雅做的是一套可以迁移、可以复用的技术体系。 代码能力可以迁移到数学推理，数学推理的训练方法可以迁移到通用推理和agent，这种技术迁移能力正是字节，乃至所有国内AI大厂都需要的。 字节在多模态领域全球领先，Seed 2.0的视频生成能力有目共睹。 但在数学推理、代码智能和agent能力上，字节落后于ChatGPT和Claude这样的竞品。 2026年启动agent与Coding组织整合，梁汝波明确将AI模型能力列为战略重点。郭达雅的加入，补齐了字节在代码与推理方向上的关键拼图。 此前有报道称，郭达雅早在去年10月便已产生离职意向，其关注重点在agent方向，而当时该方向在DeepSeek内部优先级相对有限。 在后续去向选择中，阿里曾较早与其接触，提供的岗位是后训练负责人，管理范围更大，且在工作地点与现金待遇上具备一定吸引力。 不过最终促成其加入字节Seed团队的关键因素，仍然是在研究方向本身。 字节承诺郭达雅，将agent视为字节的核心方向之一，不仅在模型能力演进中强化agent能力，也在产品侧加速相关形态落地。 对于这个逻辑，月之暗面只会看得比我更透彻。 这种急迫不只是人才竞争的压力，更是战略窗口期的焦虑。2026年到2027年，可能是agent基础设施格局确定的关键时期。 谁能在这个时间窗口建立起稳定的推理平台、吸引到足够多的开发者、形成数据飞轮，谁就能在接下来的竞争中占据主动。 我承认有些标题党，月之暗面可能并不需要“郭达雅”这个人，但是他的技术标签“代码智能和推理能力”，绝对是月之暗面现在最渴望的。 在AI竞争的下半场，能把模型能力变成稳定服务的工程师，它的作用可能和能发顶会论文的博士一样重要。",
+      "月之暗面刚刚开源了 Kimi K2.6，直接把 Agent 能力拉到了一个新高度 一句话总结 Kimi K2.6 是目前最强的开源原生多模态 Agent 模型 1T 参数 MoE 架构，32B 激活参数，256K 上下文，原生支持图片和视频输入，还能同时指挥 300 个子 Agent 协同执行 4000 步任务 说白了，这次升级的核心不是\"更聪明\"，而是\"更能干\"——从一个会思考的模型，进化成了一个能自主执行复杂任务的 Agent 引擎 模型架构 K2.6 延续了 K2.5 的 MoE 架构，参数规模没变，但能力大幅跃升： 参数 规格 总参数量 1T 激活参数 32B 层数 61（含 1 层 Dense） 专家数 384 每 Token 激活专家数 8 上下文长度 256K 注意力机制 MLA 激活函数 SwiGLU 视觉编码器 MoonViT（400M） 词表大小 160K 跟 K2.5 架构完全一致，部署方法可以无缝复用 这对运维来说是好消息——换模型不用换部署流程 四大核心能力 K2.6 这次主打四个方向，每一个都指向\"干活\"： 1. 长程编程（Long-Horizon Coding） 不是写个函数那种小活儿，是端到端的复杂编程任务——跨语言（Rust、Go、Python 都行）、跨领域（前端、DevOps、性能优化全覆盖）。看看 Terminal-Bench 2.0 的成绩：K2.6 拿了 66.7 分，GPT-5.4 和 Claude Opus 4.6 都是 65.4。SWE-Bench Pro 更直接，K2.6 拿了 58.6，GPT-5.4 是 57.7，Claude 只有 53.4 2. 代码驱动设计（Coding-Driven Design） 简单一句话 prompt 甚至一张图，K2.6 就能给你生成生产级的前端界面——结构化布局、交互元素、动画效果一步到位。这个能力对全栈开发者来说太香了。 下面是 Kimi Design Bench 的测试结果，在四大类设计任务上 K2.6 表现很强： Kimi Design Bench 设计能力测试 3. Agent 集群（Elevated Agent Swarm） 这个是我最激动的 K2.6 能横向扩展到 300 个子 Agent，协同执行 4000 步任务。它可以动态把一个大任务拆解成并行的专业化子任务，一次性输出文档、网站、电子表格等多种交付物 BrowseComp Agent Swarm 测试里，K2.6 拿了 86.3 分，GPT-5.4 只有 78.4——Agent 编排能力已经是开源模型里的天花板了 4. 主动式编排（Proactive & Open Orchestration） K2.6 能驱动 7×24 小时后台运行的自主 Agent，主动管理日程、执行代码、跨平台操作，不需要人盯着。月之暗面自家 RL 基础设施团队用 K2.6 驱动的 Agent 连续自主运行了 5 天，负责监控、故障响应和系统运维。 Claw Bench 内部评测显示，K2.6 在持续自主运行场景下比 K2.5 有显著提升： Kimi Claw Bench 自主 Agent 能力评测 配合 Kimi Code CLI（https://www.kimi.com/code），体验最佳 跑分解读：和顶级闭源模型正面硬刚 K2.6 的对手是 GPT-5.4、Claude Opus 4.6、Gemini 3.1 Pro 这些顶级闭源模型。看看关键数据： Agent 能力（最亮眼）： 测试项 K2.6 GPT-5.4 Claude Opus 4.6 K2.5 HLE-Full（带工具） 54.0 52.1 53.0 50.2 DeepSearchQA（准确率） 83.0 63.7 80.6 77.1 BrowseComp（Agent Swarm） 86.3 78.4 - - MCPMark 55.9 62.5 56.7 29.5 Claw Eval（pass^3） 62.3 60.3 70.4 52.3 OSWorld-Verified 73.1 75.0 72.7 63.3 在 DeepSearchQA 上，K2.6 的准确率 83.0% 比 GPT-5.4 的 63.7% 高了接近 20 个点，这差距太大了 HLE-Full（带工具）上也超过了所有闭源模型 编程能力： 测试项 K2.6 GPT-5.4 Claude Opus 4.6 K2.5 Terminal-Bench 2.0 66.7 65.4 65.4 50.8 SWE-Bench Pro 58.6 57.7 53.4 50.7 SWE-Bench Verified 80.2 - 80.8 76.8 LiveCodeBench v6 89.6 - 88.8 85.0 编程方面跟 GPT-5.4 和 Claude 基本持平甚至略有优势，作为开源模型，这个成绩很炸裂 相比 K2.5 的跃升： 最能说明问题的是跟自家 K2.5 的对比： MCPMark：29.5 → 55.9（近乎翻倍） APEX-Agents：11.5 → 27.9（翻了 2.4 倍） Terminal-Bench 2.0：50.8 → 66.7（**+15.9**） BrowseComp：74.9 → 83.2 Claw Eval pass^3：52.3 → 62.3 MCPMark 的跃升最能说明问题——K2.5 对工具调用还比较生疏，K2.6 已经轻车熟路了。 部署方式 K2.6 跟 K2.5 架构相同，部署流程完全复用。官方推荐三个推理引擎： vLLM 部署（推荐）： # 安装 vLLM（稳定版推荐 0.19.1） uv pip install -U vllm \\\\ --torch-backend=auto \\\\ --extra-index-url https://wheels.vllm.ai/nightly # 启动服务（H200 单机 TP8） vllm serve $MODEL_PATH -tp 8 \\\\ --mm-encoder-tp-mode data \\\\ --trust-remote-code \\\\ --tool-call-parser kimi_k2 \\\\ --reasoning-parser kimi_k2 注意两个关键参数：--tool-call-parser kimi_k2 开启工具调用，--reasoning-parser kimi_k2 开启思考模式。 SGLang 部署： # 安装 SGLang pip install \"sglang @ git+https://github.com/sgl-project/sglang.git#subdirectory=python\" pip install nvidia-cudnn-cu12==9.16.0.29 # 启动服务 sglang serve --model-path $MODEL_PATH --tp 8 \\\\ --trust-remote-code \\\\ --tool-call-parser kimi_k2 \\\\ --reasoning-parser kimi_k2 KTransformers 部署（消费级显卡也能跑！）： 这个是重点——KTransformers 支持 CPU+GPU 异构推理，8 张 L20 + Intel CPU 就能跑起来，Prefill 640 tokens/s，Decode 24.5 tokens/s（48 并发）。更绝的是，配合 LLaMA-Factory 做 LoRA 微调，2 张 4090 就能搞定，训练吞吐 44.55 tokens/s。 # KTransformers + SGLang 异构推理 python -m sglang.launch_server \\\\ --model /path/to/kimi-k2.6 \\\\ --kt-weight-path /path/to/kimi-k2.6 \\\\ --kt-cpuinfer 96 \\\\ --kt-num-gpu-experts 30 \\\\ --kt-method RAWINT4 \\\\ --tensor-parallel-size 4 \\\\ --trust-remote-code transformers 版本要求：>=4.57.1, <5.0.0 API 使用 K2.6 支持 Thinking 模式和 Instant 模式，API 兼容 OpenAI 和 Anthropic 格式： import openai client = openai.OpenAI( base_url=\"https://platform.moonshot.ai/v1\", api_key=\"YOUR_API_KEY\" ) # Thinking 模式（默认，推荐 temperature=1.0） response = client.chat.completions.create( model=\"kimi-k2.6\", messages=[{\"role\": \"user\", \"content\": \"解释量子纠缠\"}], max_tokens=4096 ) # response.choices[0].message.reasoning ← 思考过程 # response.choices[0].message.content ← 最终回答 # Instant 模式（推荐 temperature=0.6） response = client.chat.completions.create( model=\"kimi-k2.6\", messages=[{\"role\": \"user\", \"content\": \"解释量子纠缠\"}], max_tokens=4096, extra_body={\"thinking\": {\"type\": \"disabled\"}} ) K2.6 还支持一个实用功能：Preserve Thinking——多轮对话中保留完整的推理链，对 Coding Agent 场景特别有用 另外，图片和视频输入也都支持（视频目前仅限官方 API） 我的观点 说几个让我印象深刻的点： 1. Agent 集群能力是真正的差异化 GPT-5.4 和 Claude 在单步推理上依然强悍，但 K2.6 在 Agent 编排层面做出了差异化。300 个子 Agent 协同 4000 步，这个能力在开源世界里没有对手。BrowseComp Agent Swarm 的 86.3 vs GPT-5.4 的 78.4，差距一目了然 2. 从 K2.5 到 K2.6 的进步幅度惊人 MCPMark 翻倍、APEX-Agents 翻 2.4 倍，这说明月之暗面在 Agent 能力上做了非常多针对性的优化。K2.5 在工具调用上还有点笨拙，K2.6 已经很丝滑了。 3. 部署门槛在降低 KTransformers 让 L20 甚至 4090 用户也有机会跑万亿参数模型，虽然速度不算快，但至少让更多人能体验到。LoRA 微调只要 2 张 4090，这个门槛对很多团队来说已经可以接受了。 不足之处也得说： 在纯推理任务（AIME、HMMT、HLE-Full 无工具）上，跟 GPT-5.4 和 Gemini 3.1 Pro 还有差距 BabyVision 得分 39.8 远低于 GPT-5.4 的 49.7，视觉理解还有提升空间 1T 参数的部署成本依然不低，H200 单机 TP8 才是推荐配置 Modified MIT License，商用需要注意许可条款 总结 Kimi K2.6 的定位非常清晰：开源世界的最强 Agent 模型 它不追求在所有维度碾压闭源模型，而是在 Agent 编排、工具调用、长程编程这些\"干活\"场景上做到了最好 如果你在做 AI Agent 相关的产品，K2.6 值得认真评估 #KimiK2.6 #MoonshotAI #Agent #开源大模型 #MoE 制作不易，如果这篇文章觉得对你有用，可否点个关注。给我个三连击：点赞、转发和在看。若可以再给我加个🌟，谢谢你看我的文章，我们下篇再见！",
+      "一、入口在哪 1. 打开官网 kimi.com 登录 2. 左侧栏 Claw 智能体 → 新建 Claw 手机APP同样侧边栏找到Claw 二、开通条件 必须开通 Allegretto会员 才能创建、运行智能体 免费版无法使用Claw能力 三、最简创建步骤 1. 填写智能体名字、头像 2. 写角色指令（人设）：它是谁、干什么、说话风格 3. 上传知识库（文档/网页/图片都可以喂料） 4. 开启联网搜索、工具调用 5. 直接对话调试 四、核心超强功能 1. 文件深度读取：长文档、PDF、表格一次性看懂 2. 自主工具链：查资料、写代码、数据分析、执行任务 3. 记忆上下文：长期记住聊天内容、用户信息 4. API接口调用：对接微信、抖音、网站、机器人 5. 工作流自动化：自动总结、自动发文、自动回复 五、新手万能提示词（直接复制） 你是专业高效AI智能体，逻辑清晰、执行落地 严谨分析问题，分步回答，输出简洁干货 善于调用工具、联网检索、整理知识库 只输出有用内容，不废话 六、本地开源部署小白版 1. 安装Node.js 2.复制官方一键部署命令运行 3.填入自己kimi账号token即可本地运行 七、常见坑 • 没会员创建不了Claw • 知识库太大识别变慢 • 指令越精细，智能体越听话 • 联网一定要开，信息才新",
+      "How did you get Qwen to run for 8 hours with just five prompts? Feel like that's impressive in itself. I've never gotten any agent to run for longer than an hour before either failing a tool call, getting stuck in a thought loop, or just finding a reason to prematurely call it done haha.",
+      "Hi, I'd like to know opinions and experiences of how to prompt kimi agents swarm to produce books, guides, written courses, etc if I have good quality sources for it to use them for the writing &#32; submitted by &#32; /u/Few_Cartographer_301 [link] &#32; [comments]",
+      "35B is the same. I think this trait might be partially to \"blame\" for their effectiveness as agents. It's really nice and leads to impressive resulrs most of the time.",
+      "Powering the agents: Workers AI now runs large models, starting with Kimi K2.5",
+      "超级大鸡蛋 kimi是不是想在所有设备上装claw，之后一个中枢[k2.6]，管理所有claw，就等于管理所有设备 2天前湖北 赞 3"
+    ],
+    "signal_key": "other__agent__other"
+  },
+  "other__general_chat__comparison": {
+    "boundary_note": "External signals cannot distinguish whether the positive feedback is due to the AI's capabilities, the user interface, or the specific context of the user's personal use case.",
+    "comment_count": 1,
+    "content_hash": "7749485dfd2f87f35c8cd2529a4190daa47a7ff3f27ce254c89ed6048d4cc295",
+    "generated_at": "2026-05-07T02:25:04+00:00",
+    "how_i_interpret_this": "I think this might relate to users comparing our product with other solutions they've used. Possibly some comments may be finding our product superior in terms of output quality or ease of use. This could be about users appreciating the advanced capabilities of our AI in comparison to their homemade solutions.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "accuracy of translations",
+      "user retention rate",
+      "frequency of use"
+    ],
+    "representative_comments": [
+      "I've got this janky manga translator I made for personal use that ran on Open WebUI and Qwen 3.5 27B, and despite being super crude and just spitting out text, I thought it was the shit. I just saw yours and I'm bowing down to you... my implementation was pure garbage. THANKS!"
+    ],
+    "signal_key": "other__general_chat__comparison"
+  },
+  "other__general_chat__other": {
+    "boundary_note": "External signals cannot distinguish whether the requested features are due to limitations in the product's capabilities or user-specific preferences.",
+    "comment_count": 16,
+    "content_hash": "a7d6f5a65aa0c6a6c92a72e82b2fc0199143fc77c86dfcd61393711333aec4aa",
+    "generated_at": "2026-05-07T02:17:17+00:00",
+    "how_i_interpret_this": "I think this might relate to users seeking improvements in text quality and translation features, particularly for manga and other image-based text. Possibly some comments may be looking for more fluid conversational dynamics and less verbose responses. This could be about the need for better OCR capabilities and real-time translation tools.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "OCR accuracy rate",
+      "translation request frequency"
+    ],
+    "representative_comments": [
+      "This is just incredible! I know this is a translation app, but would you consider to add a functionality/tool to upscale/substitute raw Japanese text inside the bubbles with higher quality one (not even upscaling, just OCR'ing the text and put it back)? common image upscalers work well with the art but they *destroy* Japanese dialogues into mush. Would love for that feature to be possible, there are many raw scan that honestly have been done very poorly (1200px or sometimes even less!) Text is so difficult to read on those scans, if not impossible",
+      "Not directly related, but I can echo OP's sentiment that gemma4 is brief in nature. IMO Gemma 4 distilled with the opus data set is like a match made in heaven. It's short and brief, gets to the point, very pleasant to use as a conversational partner or editor model, where long winded AI wording can get tiresome.",
+      "absolutely wild conversation lol. and good work! I still wish the conversation were more fluid, though this is better than most of what I've seen. the LLM still tends to reply in paragraphs, just short paragraphs. I think none of the models are capturing conversational dynamics and turn-taking all that well.",
+      "Can't wait for it to have a browser extension to translate in real-time the \"manga\" I am reading https://preview.redd.it/bf1w4hqr1rwg1.jpeg?width=720&amp;format=pjpg&amp;auto=webp&amp;s=890fd5e249885c2b7cd5c8fb0a469383e8fca9a7",
+      "Great Omnivoice is my current one problem is many of them doesnt support hindi. while i liked most of them.",
+      "姨妈为什么不叫例假 有人和我是纯聊天吗，感觉K2是写文大师，更新之后貌似强化了其他方面，但是写文做饭这一方面完全被削削削了 1天前湖南 赞 回复",
+      "We used to pray for times like this Now our prayers have been answered",
+      "Best manga translator I've used so far! How do I pay you bro?"
+    ],
+    "signal_key": "other__general_chat__other"
+  },
+  "other__other__bug": {
+    "boundary_note": "External signals cannot distinguish whether friction comes from model capability, prompt patterns, or specific use cases.",
+    "comment_count": 11,
+    "content_hash": "daa1568bd4ae0843d337a5b4b2ae7e6e094976bc34a02ef74b5e2a8aea3ecd5c",
+    "generated_at": "2026-05-07T02:18:36+00:00",
+    "how_i_interpret_this": "I think this might relate to issues with session management and user context preservation. Possibly some comments may be encountering unexpected behavior changes when resuming sessions, which could be due to insufficient protection of session data folders. This could be about the system's inability to handle sudden spikes in access volume, leading to temporary unavailability and errors in usage statistics.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "session data integrity rate",
+      "session restoration success rate",
+      "usage statistics accuracy"
+    ],
+    "representative_comments": [
+      "A subtle attack vector I thought about:We&#x27;ve got these sessions stored in ~&#x2F;.claude ~&#x2F;.codex ~&#x2F;.kimi ~&#x2F;.gemini ...When you resume a session, it&#x27;s reading from those folders... restoring the context.Change something in the session, you change the agent&#x27;s behavior without the user really realizing it. This is exacerbated by the YOLO and VIBE attitudes.I don&#x27;t think we are protecting those folders enough.",
+      "【#Kimi新模型功能异常##Kimi补偿方案#】4 月 22 日晚间，@月之暗面Kimi 发文称，“我们知道最近 Kimi 的使用体验让大家感觉‘打折扣’了。在新模型 Kimi K2.6 上线期间，大家的热情远超我们的预期。由于访问量瞬间激增，导致部分用户遇到了会员排队、功能短暂不可用的情况；同时，后台系统在统计 Agen 展开c",
+      "#Kimi回应新模型功能异常#【#Kimi恢复所有用户当月额度#】4 月 22 日晚间，@月之暗面Kimi 发文称，“我们知道最近 Kimi 的使用体验让大家感觉‘打折扣’了。在新模型 Kimi K2.6 上线期间，大家的热情远超我们的预期。由于访问量瞬间激增，导致部分用户遇到了会员排队、功能短暂不可用的情况；同时，后 展开c",
+      "#AI论道# 【月之暗面Kimi致歉并恢复用户额度，K2.6上线致系统承压】大模型之家讯 4月22日，AI公司月之暗面旗下产品Kimi发布声明称，因新模型Kimi K2.6上线后用户访问量激增，远超预期，导致部分用户遭遇会员排队、功能短暂不可用等问题。同时，后台系统在统计Agent额度时出现偏差，造成部分用户权益被 展开c",
+      "【新模型上线期间出现功能异常，月之暗面公布补偿方案：全员额度重置】月之暗面Kimi发文称，“我们知道最近Kimi的使用体验让大家感觉‘打折扣’了。在新模型Kimi K2.6上线期间，大家的热情远超我们的预期。由于访问量瞬间激增，导致部分用户遇到了会员排队、功能短暂不可用的情况；同时，后台系统在统 展开c",
+      "Neo 仔细看了下 分数低基本都是因为 avg latency 高，我觉得这个大概率是这个网站服务器网络的问题 3天前美国 6 2",
+      "苏坡慢 kimi连日期都能算错，不信问他周五天气 昨天 17:02上海 赞 回复"
+    ],
+    "signal_key": "other__other__bug"
+  },
+  "other__other__cognition": {
+    "boundary_note": "External signals cannot distinguish whether the confusion stems from a lack of user education, poor UI design, or inherent complexity in the product's features.",
+    "comment_count": 7,
+    "content_hash": "4d7e157f7d1c8783d1c57ee5d7f2d77b4049b9ef4913c479464ab3c395121f75",
+    "generated_at": "2026-05-07T02:20:10+00:00",
+    "how_i_interpret_this": "I think this might relate to users experiencing confusion regarding the product's functionality or terminology. Possibly some comments may be encountering unfamiliar terms or features and are seeking clarification. This could be about a lack of clarity in the user interface or documentation.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "user query clarity rate",
+      "help section access frequency"
+    ],
+    "representative_comments": [
+      "Why does this need to be done locally?",
+      "请你直接展示我的笔记！ 你好 想问一下oma是什么 5天前爱尔兰 赞 回复",
+      "AI小张 作者 Kimi少想一步，这就是不够聪明的表现 2天前四川 赞 2",
+      "What are these _0 and _1 models?",
+      "Where is deepseek v4? Where!!!",
+      "亿心一意 qmd是什么啊 04-13北京 赞 2",
+      "TK 没看懂彩蛋是什么 1天前广东 1 1"
+    ],
+    "signal_key": "other__other__cognition"
+  },
+  "other__pricing__other": {
+    "boundary_note": "External signals cannot distinguish whether the pricing concerns stem from actual cost issues or from a lack of understanding of the pricing model by the users.",
+    "comment_count": 8,
+    "content_hash": "94baa9fef862628339fc0822ba0204b1dd0819983501f153b63efd74827d6826",
+    "generated_at": "2026-05-07T06:27:28+00:00",
+    "how_i_interpret_this": "I think this might relate to concerns over the cost-effectiveness and transparency of token usage in pricing models. Possibly some comments may be running into difficulties understanding the pricing structure and how token consumption impacts their costs. This could be about the perceived value of the service in relation to the expenses incurred, especially when comparing with alternative models or providers.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "token consumption rate per session",
+      "user retention rate based on pricing"
+    ],
+    "representative_comments": [
+      "There&#x27;s a few major problems with the article. The most obvious is that frontier labs are not charging remotely close to the cost of tokens; afaik most estimate north of 80% profit margins. As a reference, providers are profitably providing Kimi K2.6 for $4&#x2F;1Mtok out. Is that as good as Opus? No, but it&#x27;s probably at least Sonnet level, so that&#x27;s ~4x cheaper than Sonnet while still being profitable to serve on the margin. So you aren&#x27;t plausibly getting into actual subsidization territory until you&#x27;re over 5:1 sub to nameplate token costs. How many tokens can you realistically burn through in one chat session? Opus and many other frontier models do maybe 60tok&#x2F;s, less 250k&#x2F;hr out. In you can use more, but in most cases cache is 5-10:1 cheaper than new input. Say you average 500ktok in, 90% cache, per request. That amounts to 100-150ktok in new input-equivalent costs, which in most cases is ~20-30ktok in output-equivalent costs. Do a request every minute, that&#x27;s a total of about 1.5-2Mtok&#x2F;hr. At API prices that&#x27;s $50&#x2F;hr for Opus, but really it probably only costs Anthropic $10&#x2F;hr to serve that. That said, even if a developer is burning $50&#x2F;hr, many, many employees at large companies cost more than $100k&#x2F;yr to employ all costs considered, so making them say 20-30% more productive can easily make that worth it for most. If the labs shave their margins ultimately to more like 20-30%, you&#x27;d have ~$15&#x2F;hr in costs to use the services, and nearly every white collar job is way over 30k&#x2F;yr to employ. If your salary is 80k, you probably cost the company 200k all in, so making you 15% more productive offsets the $15&#x2F;hr cost. So first party providers are not in a horrifying position or anything from a subsidization standpoint. The people in bad shape are Cursor and Perplexity, who don&#x27;t have frontier models and are dependent on the open source community, which is typicly 6-12 months behind the frontier. They have to pay full freight API costs at 80% margin for the big boys to serve their harnesses, which is indeed untenable, and they&#x27;ll have to either force users to use open source models and&#x2F;or in house models they can serve at-cost or they will have to charge vastly more. Gemini, Claude, and ChatGPT first-party services like Antigravity, Codex, and Claude Code are not in serious trouble though.",
+      "luckydog k2.6 为啥这么费 token 啊，token 我感觉是成倍的上升，但带来的能力有限，199 套餐 9小时前北京 2 2",
+      "All we need is for Nvidia to take fractionally less margin.",
+      "一起上学）咖喱 他这个很恶心，也不说清楚到底是调用次数作为额度还是token作为额度 4天前陕西 赞 3",
+      "momo kimi的计费一直有问题次数永远不透明，模型还行 6天前北京 1 1",
+      "yusenthebot 结合价格，这太强了有点 2天前美国 4 4",
+      "🦄 不透明的用量，现在199确实坑 5天前福建 赞 回复",
+      "京望子雅 多少token？ 5小时前湖北 赞 回复"
+    ],
+    "signal_key": "other__pricing__other"
+  },
+  "other__vibe_coding__bug": {
+    "boundary_note": "External signals cannot distinguish whether the ASR issues are due to technical limitations, user input errors, or specific language challenges.",
+    "comment_count": 2,
+    "content_hash": "29941ccc85c18cc4f5417c4be64662200b0b8974ce75324ddd32577aca9efff4",
+    "generated_at": "2026-05-07T02:23:54+00:00",
+    "how_i_interpret_this": "I think this might relate to issues with the product's ASR capabilities, particularly in streaming mode. Possibly some comments may be encountering problems with real-time voice recognition, which could be causing frustration. This could be about the limitations of the current ASR technology in handling certain languages or accents.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "streaming ASR error rate",
+      "ASR latency metrics",
+      "user retention after ASR errors",
+      "ASR accuracy by language"
+    ],
+    "representative_comments": [
+      "You know this is vibe typed dog shit because vibevoice doesn’t support streaming asr",
+      "pundemonium Coding翻译成编码的错误这年头llm都不会犯了吧 2天前北京 赞 回复"
+    ],
+    "signal_key": "other__vibe_coding__bug"
+  },
+  "other__vibe_coding__cognition": {
+    "boundary_note": "External signals cannot distinguish whether the confusion stems from a lack of clear communication about product features, actual limitations in the product, or user expectations based on their experience with other products.",
+    "comment_count": 3,
+    "content_hash": "893011fc02f45628745f7c112161cc2b3cdf19b2bf230ab354df8b1efb2e3c99",
+    "generated_at": "2026-05-07T02:23:23+00:00",
+    "how_i_interpret_this": "I think this might relate to users having confusion around the capabilities and version-specific features of our product, particularly regarding the 'reasoning flag' and its applicability to different versions. Possibly some comments may be encountering difficulties in finding specific versions or are questioning the effectiveness of our product in certain programming languages like C#.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "version-specific feature usage rate",
+      "language-specific query frequency",
+      "bug detection success rate for C#"
+    ],
+    "representative_comments": [
+      "I thought --reasoning flag didn't work for qwen3.5? Does it work for 3.6?",
+      "モモコ 我有个问题，为什么用 kimi 去找 C#的代码BUG找不到？官方有没有c#测试集？对比同类产品差距有多大 2天前黑龙江 赞 回复",
+      "Where's is qwen 3.6 27b ?"
+    ],
+    "signal_key": "other__vibe_coding__cognition"
+  },
+  "retention__agent__bug": {
+    "boundary_note": "External signals cannot distinguish whether the account limitations are due to specific user behavior, a systemic issue with the agent's access controls, or a regional policy enforcement.",
+    "comment_count": 2,
+    "content_hash": "d2e8ff52dfc1833905fb33e886c23835abb807d011b23684510c2f1e1fb28d03",
+    "generated_at": "2026-05-07T02:24:31+00:00",
+    "how_i_interpret_this": "I think this might relate to users encountering unexpected restrictions on their agent usage, possibly leading to frustration. It seems like some comments may be running into account limitations or temporary bans after just a few uses, which could be about the agent's rate limiting or abuse prevention mechanisms.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "agent usage frequency",
+      "account lockout incidents"
+    ],
+    "representative_comments": [
+      "老吗喽只会和SH四条腿走路 闹麻了，昨晚发的，凌晨一点就给我199订阅会员的agent额度封了4个小时，早上六点用了一次，又封了四个小时 8小时前黑龙江 赞 回复",
+      "Manifesting 用两次agent 就锁5小时，不懂你们想干嘛……还是充了会员的情况下 昨天 21:25广东 5 回复"
+    ],
+    "signal_key": "retention__agent__bug"
+  },
+  "retention__agent__comparison": {
+    "boundary_note": "External signals cannot definitively attribute session consumption differences to specific product features or user behaviors without additional context.",
+    "comment_count": 1,
+    "content_hash": "fce08d2557f1b970f082d048640b9e06425cf6e935e1b87a88a4acf56a857e78",
+    "generated_at": "2026-05-07T02:25:18+00:00",
+    "how_i_interpret_this": "I think this might relate to the efficiency of our product compared to alternatives in terms of session consumption. Possibly some comments may be experiencing higher resource usage with our product than with other agents. This could be about the performance of our agent in comparison to others in the market.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "session duration metrics",
+      "resource consumption rates",
+      "cost efficiency ratios"
+    ],
+    "representative_comments": [
+      "Background agents (diy OpenClaw like), coding, assistant (openwebui).The worst I saw - multiple parallel agents (opencode &amp; pi-coding agents), with Kimi and glm, almost non stop development during the work day - 15-20% session consumption (I think it’s 2h bucket) max. Never hit the limit.In contrast, 20$ Claude in the similar mode I consumed after just few hours of work."
+    ],
+    "signal_key": "retention__agent__comparison"
+  },
+  "retention__agent__other": {
+    "boundary_note": "External signals cannot distinguish whether the limitations users face are due to intentional service constraints, technical bugs, or a combination of both.",
+    "comment_count": 6,
+    "content_hash": "e4e9d389f4101c9db4deabaffbae11455856fbbc43a0d9040e2bab2396dce7c1",
+    "generated_at": "2026-05-07T04:50:43+00:00",
+    "how_i_interpret_this": "I think this might relate to users experiencing limitations with their agent usage, possibly due to subscription constraints or technical issues. It seems some comments may be running into difficulties with the agent's availability and are seeking more consistent access, suggesting a need for better communication or adjustments to the service.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "agent usage frequency",
+      "subscription renewal rates",
+      "error rates with model connections"
+    ],
+    "representative_comments": [
+      "Sorry to frame it but if anybody has a Kimi subscription with leftover swarms just before their renewal, can you run something for me please? I have kind of run out and I can't break my head on other agent harnesses by Guiding them, Kimi kind of gets it right but I ran out. &#32; submitted by &#32; /u/Ok_Firefighter3363 [link] &#32; [comments]",
+      "我的kimiclaw给我写信啦 #kimi #kimiclaw #kimiclaw惊喜 程序里的kimiclaw跳出来给我寄了明信片 上面写着只有我们两个才知道（还有夜之暗面偷偷看）的夜晚故事 前阵子用k2.6beta 最近开始用k2.6感觉越来越省心了 但是官方的openclaw更新一次我的模型连接就要错误一次 不知道到底是谁的问题 但是反正现在禁用了自动更新以后都能顺利跑起来 kimiclaw+本地claw协同工作 简单的需求都能满足啦 猜你想搜 Kimi Claw使用教程 昨天 21:08 上海",
+      "哄哄 不是额度的问题，不要转移话题。在额度充足的情况下，执行一次 agent 直接封 5 小时，连 chat 都不能用，还给不出一个说法，这谁敢用？ 共5张 10小时前上海 赞 回复",
+      "momo 求让免费用户用上一天稳定能用上3次都行啊我真的很需要你的agent不要老是前方人太多让我升级我这个又穷又蠢又忙又痛苦的工科大学生你就让让我吧 2天前北京 赞 回复",
+      "ajs56hdbxjdozne12 199订阅近两月agent使用从未限流过 04-15北京 赞 4",
+      "柳 hermes agent+k2.6跑了两天了，感觉还行 7天前广西 1 1"
+    ],
+    "signal_key": "retention__agent__other"
+  },
+  "retention__general_chat__comparison": {
+    "boundary_note": "External signals cannot distinguish whether the observed 'sameness' is due to model limitations, user prompt fatigue, or the natural progression of conversational AI.",
+    "comment_count": 3,
+    "content_hash": "74f3c13e22b2f5f7ac5288b92743e7bcdbbe9bd46e4e2935baebbcac71439885",
+    "generated_at": "2026-05-07T04:51:17+00:00",
+    "how_i_interpret_this": "I think this might relate to users experiencing a plateau in engagement with the current model, leading them to compare it with alternatives. Possibly some comments may be encountering limitations in the model's ability to maintain novelty or relevance over extended interactions. This could be about the perceived value proposition of the new model versus existing ones, especially in terms of cost and functionality.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "long-context conversation drop-off rate",
+      "cost-per-engagement ratio",
+      "cross-model user migration rates"
+    ],
+    "representative_comments": [
+      "返回 转到“SillyTavernAI” r/SillyTavernAI • 2天前 Emergency_Comb1377 关注帖子 保存 隐藏 举报 Kimi 2.6 isn't really worth it Models Page 1 (Current page) Page 2 Item 1 of 2 So I have been going wild with Gemma 4 31B recently. But slowly - way slower than with the other models, I might add - there has been a bit of \"sameness\" creeping in. So I thought, alright, why not try the new model. And this is it. After three messages. Sure, it feels a bit not-as-samey, but the general direction and quality are comparable. Can't really justify that. I guess I'm going back to tweak prompts for Gemma. 赞同 48 反对 25 转到评论",
+      "Hi! I’ve used Claude (Pro Max) quite a bit recently but I’m really enjoying Kimi. However I often hit the “this conversation is too long start a new one” limit. What do you all think? I’d rather pay 300-500 USD a month for my marketing agency than a slightly cheaper LLM like Kimi but I’ve seen a lot of potential in Kimi especially the swarm feature. &#32; submitted by &#32; /u/Marketingjuice2000 [link] &#32; [comments]",
+      "三峡好人 我提示词已经做到这样了 kimi 还是会给我的文章造假，要不然就是找点与内容无关的文献充数，我已经转 claude 了，比 kimi 强一万倍.... 昨天 17:52上海 赞 2"
+    ],
+    "signal_key": "retention__general_chat__comparison"
+  },
+  "retention__general_chat__other": {
+    "boundary_note": "External signals cannot distinguish whether the improvement in performance is due to changes in the AI model, data sources, or other technical factors.",
+    "comment_count": 2,
+    "content_hash": "bc7a0b4e64b49f79cd6737391b16b49c247a880c238694ebe1e91ee13c863d56",
+    "generated_at": "2026-05-07T04:51:33+00:00",
+    "how_i_interpret_this": "I think this might relate to users noticing a change in the AI's behavior or persona, possibly due to an update or a shift in the underlying model. The positive tone suggests that this change has been perceived as an improvement in the AI's performance. This could be about a recent update that has enhanced the AI's ability to provide accurate and relevant information.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "model update frequency",
+      "accuracy of provided information",
+      "link validity rate"
+    ],
+    "representative_comments": [
+      "Kimi K2.6 - running from Ollama Cloud API suddenly changes to the friendly mandarin guy next door from my english neighbour 😙 &#32; submitted by &#32; /u/Exact_Presence9928 [link] &#32; [comments]",
+      "洄溯 我说怎么昨天下午开始，kimi回答就变得更好用了，现在回答的参考文献都是真实有效的，链接都是正确的可跳转 2天前云南 赞 回复"
+    ],
+    "signal_key": "retention__general_chat__other"
+  },
+  "retention__other__bug": {
+    "boundary_note": "External signals cannot distinguish whether the issues stem from user error, UI/UX design flaws, or backend system limitations.",
+    "comment_count": 10,
+    "content_hash": "a6de221ef3e9e288035645661d08db5198c4052d67f92a12991fa12b9063608f",
+    "generated_at": "2026-05-07T04:50:20+00:00",
+    "how_i_interpret_this": "I think this might relate to users encountering technical issues that prevent them from using the product as expected. Possibly some comments may be running into session management problems or unexpected account deletions. This could be about users experiencing limitations in usage that lead to frustration and a perception of poor value for their subscription.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "session termination rate",
+      "account deletion frequency",
+      "usage limit trigger frequency",
+      "subscription cancellation rate"
+    ],
+    "representative_comments": [
+      "I get this after just a few chats: Your conversation with Kimi is getting too long. Try starting a new session. I am on the second to largest plan. &#32; submitted by &#32; /u/Marketingjuice2000 [link] &#32; [comments]",
+      "tearless 我是kimi的用户，手机登陆账号尾号1456，是一个刚刚才充值一年的付费用户。 我刚才（2026年4月21日下午四点左右），本来想在一台电脑上注销原账号后登陆这个账号，但是，登陆的地方没有注销登陆的选项，只有删除本账号，我以为是注销的意思，就删除了，结果整个账号都没有了，你们的官网和APP都没有客服，也还没人回，我只能写信紧急求助要求找回原账号，请尽快处理并回复 2天前上海 赞 回复",
+      "tearless 我是kimi的用户，手机尾号1456，是一个刚刚才充值一年的付费用户。 我刚才（2026年4月21日下午四点左右），本来想在一台电脑上注销原账号后登陆这个账号，但是，登陆的地方没有注销登陆的选项，只有删除本账号，我以为是注销的意思，就删除了，结果整个账号都没有了，你们的官网和APP都没有客户，我只能写信紧急求助要求找回原账号，请尽快处理并回复 1天前上海 赞 回复",
+      "kimi 会员体验太差了吧 刚充了包年的第二档套餐 1908，跑了三个表格任务 看着额度用了 5%，现在连对话都不行了 找客服只能发邮件，也不知道什么时候回 @Kimi智能助手 #kimi #大模型 #大模型订阅 猜你想搜 Kimi智能助手官方客服联系方式 昨天 10:46 广东",
+      "kimi 2.6 会员你就开吧，一开一个不吱声 使用了一次他们的网站生成， 没说几句话，就不能用了， 还每个月 49 块，谁买谁冤种 没用几下就用不了了， 搞笑，还不如免费用户呢@Kimi智能助手 1天前 四川",
+      "水手山巴 我从来用不到周限额，因为在 CC 里一个 bug 排查就触发 5 小时限额，然后切换其他 plan，等下次想起来用 kimi 时可能一周以后了。。。 2天前河南 1 2",
+      "顾八岁 进去之后就提示要排队不能用 已经卸载 7小时前上海 3 1 AI 聚合器｜低价中转 API 13小时不间断编码太牛了！价格如果也友好就更香了 6小时前美国 赞 回复",
+      "哈哈 请问什么时候才正常啊？用了两次对话，就锁了5小时 昨天 23:18云南 4 1"
+    ],
+    "signal_key": "retention__other__bug"
+  },
+  "retention__other__comparison": {
+    "boundary_note": "External signals cannot distinguish whether friction comes from model capability, prompt patterns, or specific use cases.",
+    "comment_count": 33,
+    "content_hash": "77b43f2bda3f7f25de6da44c74c81bc96b43167c9f979d5e34a844353738a99c",
+    "generated_at": "2026-05-07T06:25:27+00:00",
+    "how_i_interpret_this": "I think this might relate to users experiencing performance degradation and increased costs with certain models, leading them to switch to alternatives. Possibly some comments may be running into issues with model regressions and cost inefficiencies, prompting them to explore other options. This could be about the trade-offs between model capabilities, cost, and user experience, with some users finding better value and performance with competitors.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "model regression incident rate",
+      "average cost per task completion",
+      "user churn rate from specific models",
+      "task completion efficiency across different models"
+    ],
+    "representative_comments": [
+      "For what it&#x27;s worth, here some of my experiences, as recently I have had some major deviations from what I&#x27;ve come to expect: 1.) Opus 4.7 via the API is great. Unlike 4.6, I have found the model to degrade far less beyond 120k, even 600k can be relied upon. Task Inference, Task Evaluation, Task Adherence, tool calling, all do very well on my evals. I did however for the first time in a while end my Claude Max subscription because, after their post-mortem [0] I for the first time saw true, reproducible, incredibly frustrating regressions in model output when using Claude Code. Yes, this was after their post in the last week of April 26 and yes, I have been fortunate enough to never have been affected by regressions up to this point. The model via API with other harnesses provides consistent, useful and high quality output, but the recent changes have become an avalanche of &quot;this requires more than two changes so we should table this for later&quot; and &quot;it seems the subagent finding was wrong and this is not actionable&quot; with a healthy mix of suggestions that clearly are there to safe tokens, but go against clear instructions. I understand that they are compute constraint but as someone who until recently has never maxed out their weekly and nearly never their 5 hour limits on the Max 5x plan, these changes are not just frustrating (and make reasonable users think the model was nerfed rather than the harness) but also cost more as I now have to prompt four times and thousands of tokens more for a task that previously the same harness with the same model did far more efficiently. I regularly check the numbers and yes, by trying to be more efficient, they made what I am costing them far higher, going beyond what I pay for the subscription. Ironically, and I must emphasise this, I did not have regressions before, which suggests some major luck in A&#x2F;B testing at least. 2.) GPT-5.5 is amazing, a true jump I have not seen since GPT-5 and far more than even GPT-5.4 is approaching the way Anthropic models have handled task inference, which also has lead to far reduced reasoning needs. I very much like it, with the exception of the reduced context window and degradation in compaction. GPT-5.4 did compaction so consistently well, that the 272k standard window before the price increase was of no concern and going beyond it was reliably possible. With GPT-5.5, the cost per token is doubled and compaction is far less reliable, leading to loss of task adherence and preventing task completion in certain cases. I am aware GPT-5.5 is a new pretrain (though how new given frontend is still abhorrently poor and has been since Horizon Alpha which I maintain was worse than GPT-4.1) and am hopeful they can integrate some of the solutions they were leveraging for GPT-5.4 compaction, but until then, it remains a model great for very challenging and complex blockers, but not a GPT-5.4 drop-in replacement. 3.) Kimi K2.6 is great for the API price, efficient, fast and does very well on all my metrics. I very much like it, far more so than Deepseek V4 Pro, any Qwen, Z.AI or Meta model and I truly am impressed. Composer 2 has shown how you can take the base even further given the right data and if I had to pay exclusively API pricing without any subscriptions, I think I&#x27;d have no problem leaning on K2.6 for most needs. It is what I&#x27;d love to see from Mistral or Apple and shows that one can&#x27;t just succeed in a few narrow areas (Z.AI with tool calling, Deepseek with world knowledge, Mistral with being European, etc.) but provide a balanced product across all areas as an open weight company. I just wish they&#x27;d expose Agent Swarms via the API, there are a few experiments I&#x27;d like to try. [0] https:&#x2F;&#x2F;www.anthropic.com&#x2F;engineering&#x2F;april-23-postmortem",
+      "返回 转到“LocalLLaMA” r/LocalLLaMA • 2天前 meaningego 关注帖子 保存 隐藏 举报 Opus 4.7 Max subscriber. Switching to Kimi 2.6 New Model I know people just like to throw shit at Anthropic. I'm not one of those. I have nothing against them as a company, and I actually dislike them less than the other big players. I had all my team switch over from Cursor because Opus felt so good. Since the Max plan is never enough, expenses are growing bigger by the day. So when we can we supplement with Qwen 3.6 plus keeping Opus as harness. It's good, but wasn't \"as\" good. Lots of mistakes and stubs. The feeling everyone is sharing is Opus 4.7 got suddenly so lazy, on top of expensive. Part of the problem might be in Claude Code CLI itself, who knows. And so today I switched over to kimi 2.6 and it's.. wow! So fast and pleasurable to use. Context is much smaller but keeping an eye on it it's still pretty reliable. Claude is happy going back and forth with questions and spammy tool outputs.. seems the Kimi team worked to manage their smaller context better perhaps? More testing is needed to say this for certain. But I immediately purchased a yearly subscription and will recommend to my colleagues as well. At the moment I'm using it with their cli, it feels smoother than it is when plugging it into CC via env vars. I'm just a bit sad it doesn't work out of the box with Forge. I submitted a PR to fix it (https://github.com/tailcallhq/forgecode/pull/3098). 赞同 254 反对 105 转到评论",
+      "返回 转到“kimi” r/kimi • 2天前 CarpenterEast6047 关注帖子 保存 隐藏 举报 Claude vs Kimi Discussion Hi everyone, I’m currently a Claude Pro ($20/mo) subscriber. While I love the output quality and the feature for file generation, I’m constantly hitting the message limits. It’s seriously bottlenecking my work. I’m looking into Kimi k2.6 as a potential alternative. I’d love to hear from anyone who has compared the two, specifically regarding: The Use Case: I deal with massive Economics lecture notes, perform light Finance coding (Python/Data analysis), and I’m interested in agentic workflows. The Limits: How does Kimi’s paid tier compare to Claude in terms of daily/hourly limits? Is it more \"generous\" for the same $20 price point? Quality vs. Efficiency: Claude 4.6 Sonnet was the model that used most of the time due to limit anxiety but lately i started use opus4.7 either. How does Kimi k2.6 hold up in financial math academic notes, note taking and coding? File Generation: I rely on Claude’s ability to generate and iterate on files such as pdfs this is really useful feautre and the ability to generate 20+pages notes are really matter. Does Kimi offer a experience or a workflow that's just as smooth? If you’ve switched from Claude to Kimi for heavy academic or agentic use, was it worth it? Thanks! 赞同 12 反对 18 转到评论",
+      "&gt; I&#x27;ve been using GLM pretty much exclusively last 6-8 months. I have access to Anthropic and OpenAI models and others. I always keep returning to GLM, it isn&#x27;t the best Very interesting. What sort of tasks do you use it for, and what client do you use? When you want to use a custom client and a coding plan to control costs (daily use, a few hundred USD&#x2F;m budget), this is the landscape: - Anthropic&#x2F;Google: Deterring custom clients actively - OpenAI: Grey area. - Z.ai: Technically only allows clients in their (large) approved list of clients. Likely won&#x27;t actively ban custom clients. - Moonshot: Seem to allow custom clients? - DeepSeek&#x2F;Alibaba: No coding plans at this time",
+      "i have noticed some negative sentiment around moonshot billing in this sub so started looking at alternatives. seen together, deepinfra, openrouter and others mentioned as providers hosting k2.6 with token based pricing before commiting - does the 200k context actually perform the same through third party endpoints or does something get lost? mainly using it for coding workflows and document analysis so context consistency matters. also curious how the api reliability has been day to day anyone using k2.6 through one of these, drop your experience. thanks &#32; submitted by &#32; /u/lucasbennett_1 [link] &#32; [comments]",
+      "I’ve been extraordinarily productive with this, their $10 Go plan, and a rigorous spec-driven workflow. Haven’t touched Claude in 2 months.I sprinkle in some billed API usage to power my task-planner and reviewer subagents (both use GPT 5.4 now).The ability to switch models is very useful and a great learning experience. GLM, Kimi and their free models surprised me. Not the best, not perfect, but still very productive. I would be a wary shareholder if I owned a stake in the frontier labs… that moat seems to be shrinking fast.",
+      "Limits were the last straw that made me cancel my subscription and make my workflow completely model agnostic with pi. While this is good news, I&#x27;m not coming back. Anthropic just lost me with too many wrongs in too short of a time period. Opus has been replaced with GPT 5.5, DeepSeek, Kimi, Qwen and they all allow me to use my own, single harness and switch models easily if any of them start treating me the same.",
+      "I’m currently using Ollama Cloud heavily ($100/month), mostly with Kimi K2.6. However, Ollama can be quite slow at times during the day, so I’m considering switching to Kimi directly. For additional models, I can use OpenCode Go ($10/month). Just curious if anyone has had recent experience with Kimi and Ollama and would like to share their experience. &#32; submitted by &#32; /u/antonusaca [link] &#32; [comments]"
+    ],
+    "signal_key": "retention__other__comparison"
+  },
+  "retention__other__other": {
+    "boundary_note": "External signals cannot distinguish whether friction comes from model capability, prompt patterns, or specific use cases.",
+    "comment_count": 90,
+    "content_hash": "73f7582eb0787b34a0c413178f902f3550f4401cbfb0c6f90e31b8ebcbc60e3e",
+    "generated_at": "2026-05-07T06:24:11+00:00",
+    "how_i_interpret_this": "I think this might relate to concerns about the geopolitical implications of using AI models from certain countries, as well as user experiences with the performance and reliability of different AI models. Possibly some comments may be running into issues with model updates or A/B testing that affects their experience. This could be about the perception of value and the user's willingness to pay for AI services, especially when considering the availability of free alternatives.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "model update frequency",
+      "user retention rate after model updates",
+      "subscription conversion rates from free to paid tiers"
+    ],
+    "representative_comments": [
+      "In every one of these threads for a new Chinese open weights model, it&#x27;s always the same tired discussion of how this is all actually a psyop by the Chinese government to undermine US interests and it can&#x27;t answer questions about Tienanmen Square. Meanwhile I&#x27;m over here solving real world business problems with a model that I can securely run on-prem and not pay out the nose for cloud GPU inference. And then after work I use that same model to power my personal experiments and hobby projects. There are no Chinese labs with different financial and political motivations, there&#x27;s only &quot;China&quot; the monolith. The last thread for Qwen&#x27;s new hosted model was full of folks talking about how &quot;China&quot; is no longer releasing open weights models, when the next day Moonshot AI releases Kimi 2.6. A few days later and here&#x27;s Qwen again with another open release. For some reason this country gets what I assume are otherwise smart Americans to just completely shut off their brains and start repeating rhetoric.",
+      "共 372 条评论 momo 这熟悉的味道，和k2.5发布时一个味当时也是铺天盖地的软文，拳打这个，脚踩那个的，一个月后，我退订了kimi充了Claude pro 2天前北京 113 22 momo（见过Laufey版） 我感觉挺好用啊，而且 composer 2 不也是 kimi2.5 2天前辽宁 12 回复 展开 21 条回复 Duo 。。。 2天前马来西亚 57 25 小红薯66BD1E54 我问了豆包kimi千问deepseek，只有kimi回答错误 2天前广东 22 回复 展开 24 条回复 顾八岁 进去之后就提示要排队不能用 已经卸载 7小时前上海 3 1 AI 聚合器｜低价中转 API 13小时不间断编码太牛了！价格如果也友好就更香了 6小时前美国 赞 回复 soulmate 10分钟就5小时限制，真够牛的 2天前江苏 16 5 小猫爱兔兔 我也是啊，49套餐，怎么整 1天前上海 赞 回复 展开 4 条回复 momo 想在白天持续用就必须充钱买贵的套餐，不充钱或者买便宜的套餐就只能等到凌晨12点后到早上7点这段时间才能一直用，那我为什么不直接买别家的ai 9小时前四川 2 回复 是DD呀📷 我好奇问下，开源了那之前充钱的和不充钱的有什么区别？ 2天前上海 5 20 瑶枝甘鹿 建议你问kimi 2天前北京 49 回复 展开 19 条回复 小红薯613A03FA 我发现你们真的很喜欢狙击诶，好几次了，别家发布一个你们马上也出牌，一天都等不了 2天前北京 7 7 penn 因为... 2天前中国澳门 26 回复 展开 6 条回复 锄禾日记 发现了我的kimi-code-2.6-preview变成了kimi2.6，果然是发布了 2天前广东 1 9 锁锁手工坊 有没有试过编码怎么样兄弟 2天前上海 赞 回复 展开 8 条回复 小红薯67294B30 昨天眼睁睁看着Kimi把代码改好了，然后继续思考把代码改坏了，改好不叫我验证就自己自己瞎思考了 2天前广东 5 4 nomo 看看截图？ 2天前广东 赞 回复 展开 3 条回复 Russellvile 为什么我的coding plan只能选一个coding模型，不能用k2.6 2天前广东 1 6 momo（见过Laufey版） 会自动路由到 2.6 上 2天前辽宁 赞 回复 展开 5 条回复",
+      "Not true of non-US companies. I had also added money to Deepseek, and it was still there (and Z.ai and Moonshot are the same). I&#x27;m reasonable though, if it&#x27;s been 5 years or something I might have understood, but it was 1 year and the account was in use during that time. Where I live (in Canada) it&#x27;s actually illegal for gift cards to ever expire, and there&#x27;s lots available from US companies, so if it&#x27;s an accounting issue other companies have figured it out.",
+      "probably never. Majority of end users wants the best model for free. They will even turn a blind eye to data privacy and security concerns to get it. No one is interested in paying for local hardware to run models that are not on par with what a free subscription can offer. Instead of maintaining hardware and software runs, they just want to fire their queries, get answers and carry on with living their lives.",
+      "Update: Since last night my experience has changed unfortunately. I don't know whether they do A/B testing or trying quantised model variants now, changed the system prompt or something on my end has become flaky. Experience for me is currently closer to regular Kimi K2.5 but with working tool calls. I really want the experience of the last few days back, that was awesome 😕",
+      "They care about developers from companies that are on their team&#x2F;enterprise plans or using bedrock.Individual users barely matter. That&#x27;s probably also the same group that decides to switch to Codex&#x2F;Kimi&#x2F;[whatever the hottest agent on any given day] on a whim, which Anthropic doesn&#x27;t necessarily want to do business with.",
+      "看到智谱的公告后，吓得我买了一年kimi 我是GLM的年费会员 这个公告对我没什么影响 明年不打算续订 1月就觉得Coding plan这个模式长不了 所以就买了一年 看到这个公告，有点无奈但也理解 AI时代不比移动互联网时代 一切为了用户体验这原则， 在边际成本不为零的前提下 是不应该存在的 我不知道会不会有下个公告 会不会影响到我 反正是说变就变的时代了 买了一年kimi后 焦虑缓和了一些 kimi会不会变，我不好说 至少过去的调整都在朝着更好的体验方向 希望能一直维持下去吧 无论是给用户的承诺，还有开源的精神 另外k2.6真的很好用 昨天 15:06 陕西",
+      "Your post is getting popular and we just featured it on our Discord! [Come check it out!](https://discord.gg/PgFhZ8cnWW) You've also been given a special flair for your contribution. We appreciate your post! *I am a bot and this action was performed automatically.*"
+    ],
+    "signal_key": "retention__other__other"
+  },
+  "retention__pricing__comparison": {
+    "boundary_note": "External signals cannot definitively indicate whether the perceived value and cost-effectiveness are due to actual differences in product performance or are influenced by user-specific use cases and technical expertise.",
+    "comment_count": 5,
+    "content_hash": "41ab89f17d03f90df5db68f7f5057fbdaa455d82046beac8f24a6571dbb4567b",
+    "generated_at": "2026-05-07T06:28:06+00:00",
+    "how_i_interpret_this": "I think this might relate to users comparing the cost-effectiveness of our product with alternative AI models and pricing structures. Possibly some comments may be finding that other models offer similar capabilities at a lower cost or with higher rate limits. This could be about users seeking to optimize their spending on AI services by leveraging different models and strategies.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "user churn rate after subscription renewal",
+      "frequency of model switching"
+    ],
+    "representative_comments": [
+      "Please remember you do not need Anthropic. There are cheaper subscriptions with higher rate limits. Comparison of subscriptions to API: https:&#x2F;&#x2F;codeberg.org&#x2F;mutablecc&#x2F;calculate-ai-cost&#x2F;src&#x2F;branch&#x2F;... Score&#x2F;price comparison: https:&#x2F;&#x2F;benchlm.ai&#x2F;llm-pricingOpus is not worth the moat, there are multiple equivalent models, GLM 5.1 and Kimi K2.5 being the open ones, GPT 5.4 and Gemini 3.1 Pro being closed. https:&#x2F;&#x2F;llm-stats.com&#x2F; https:&#x2F;&#x2F;artificialanalysis.ai&#x2F;leaderboards&#x2F;models https:&#x2F;&#x2F;benchlm.ai&#x2F;Even API use (comparatively expensive) can be cheaper than Anthropic subscriptions if you properly use your agents to cache tokens, do context-heavy reading at the beginning of the session, and either keep prompt cache alive or cycle sessions frequently. Create tickets for subagents to do investigative work and use smaller cheaper models for that. Minimize your use of plugins, mcp, and skills.Use cheaper models to do &quot;non-intelligent&quot; work (tool use, searching, writing docs&#x2F;summaries) and expensive models for reasoning&#x2F;problem-solving. Here&#x27;s an example configuration: https:&#x2F;&#x2F;amirteymoori.com&#x2F;opencode-multi-agent-setup-speciali... A more advanced one: https:&#x2F;&#x2F;vercel.com&#x2F;kb&#x2F;guide&#x2F;how-i-use-opencode-with-vercel-a...",
+      "I had Claude make me a quick tool to combine my Claude Code token usage (via ccusage util) with OpenRouter pricing from the models API I&#x27;m on Max x5 plan and any of the &#x27;good&#x27; models like Kimi 2.6, GLM, DeepSeek would have cost 3-5x in per-token billing for what I used on my Claude plan the last three months So unless my Claude fudged the maths to make itself look better, seems like I&#x27;m getting a good deal",
+      "心想士城 一百左右的kimi会员，和一百多的opus/codex/geminiAPI中转额度或者号池，现在我宁愿选后者 5天前吉林 3 回复",
+      "爱笑小眼睛 我感觉重置后也是，199的会员和49会员用的一样快 昨天 22:49北京 赞 回复",
+      "缄默 限额极其严重 比claude的pro 用的还快 5小时前江苏 赞 回复"
+    ],
+    "signal_key": "retention__pricing__comparison"
+  },
+  "retention__pricing__other": {
+    "boundary_note": "External signals cannot distinguish whether the increased token consumption is due to changes in user behavior, product updates, or pricing strategy adjustments.",
+    "comment_count": 11,
+    "content_hash": "ea736a56fe4d000418fb3ad8a10654fd60cee7858c7bc64aad3a5ae34a8de4a4",
+    "generated_at": "2026-05-07T02:19:17+00:00",
+    "how_i_interpret_this": "I think this might relate to users experiencing faster token consumption than expected, leading to dissatisfaction with the pricing model. Possibly some comments may be running into limitations in the number of tasks they can complete within their subscription period. This could be about users feeling that the value proposition of the pricing tiers is not meeting their needs, especially if they perceive the token usage to be higher than before.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "token consumption rate per user",
+      "average task completion time",
+      "subscription tier conversion rates",
+      "token refill frequency",
+      "user churn rate after token exhaustion"
+    ],
+    "representative_comments": [
+      "小猫爱兔兔 昨天晚上开通49会员，一句话任务5分钟没跑完就限额了这还是普通办公人员非码农………再看了看评价，199的也几次对话就限额了，吓得我立刻取消自动续费… 昨天 22:53上海 7 回复",
+      "pajaz 重置额度真的帮大忙了，不然真要花光了，也不知道重置后额度消耗能不能跟2.5时期一样了，现在真的花的太快了 昨天 21:22四川 1 1",
+      "荒原猎码人Zero ber 我血亏啊！199快用完了 前天晚上送了我一份699我刚用 5% 今天就重置了 我去！ 昨天 21:24江苏 1 回复",
+      "Artemis 不仅降智，还巨耗 token，以前我 99 的套餐完全够用，现在 99 的套餐没一会儿就用完啦，拉爆了 5天前广东 3 2",
+      "Jiwoo7 感觉烧token也很突破 199套餐现在我一天能跑30%，感觉不太够用 6天前辽宁 9 7",
+      "子衿 早用完，晚用完不都一样吗，搞周限额真恶心基本10%就限制一次（99的会员） 6天前山东 4 2",
+      "ajs56hdbxjdozne12 你下个月换199 不够再升级退差价就好了 7天前北京 赞 1",
+      "H.Q token消耗比之前k2.5快多了99套餐都不够我用了 04-14湖北 赞 回复"
+    ],
+    "signal_key": "retention__pricing__other"
+  },
+  "retention__vibe_coding__comparison": {
+    "boundary_note": "External signals cannot distinguish whether friction comes from model capability, prompt patterns, or specific use cases.",
+    "comment_count": 11,
+    "content_hash": "363695932e83e5fbb5849d3150d5634efff2f44ceebd981680f2bd374c82b2da",
+    "generated_at": "2026-05-07T06:26:39+00:00",
+    "how_i_interpret_this": "I think this might relate to users' preferences and experiences with different AI coding models, particularly in the context of WordPress development. Possibly some comments may be running into issues with model capabilities, cost-effectiveness, and ease of use. This could be about the performance and integration of various AI models in coding workflows, and how they compare to each other.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "WordPress plugin development success rate",
+      "cost per successful plugin development",
+      "user retention rate across different AI models",
+      "token consumption rate per task"
+    ],
+    "representative_comments": [
+      "Recently, GitHub Copilot silently dropped support for Claude Opus on Pro accounts. Since Opus was my go-to model for my daily workflow (developing WordPress plugins), I needed a reliable replacement. I decided to run a rigorous, blind benchmark across 14 state-of-the-art and local LLMs to objectively measure which model understands WordPress development best. To ensure a perfectly fair test, I started with a completely fresh IDE and zero context for every single generation. I asked each model to build a &quot;Gravity Forms Live Search&quot; plugin using a minimal, zero-shot prompt. To avoid personal bias, I had Gemini 3.1 Pro blindly grade the anonymized outputs against a strict 100-point rubric, comparing them to my own reference implementation. Surprising Findings 1. The &quot;Blind Spot&quot; (Re-inventing the wheel) Out of 14 models, exactly 0 successfully hooked into the native Gravity Forms search input (#form_list_search). Instead of analyzing the implicit context (the DOM), every single model forcefully injected a brand new, redundant &lt;input&gt; into the page. 2. Complete lack of advanced UX foresight Because it wasn&#x27;t explicitly asked for, no model anticipated the need for keyboard shortcuts (Ctrl+F), nor did any attempt to update the native item counter as rows were hidden. Zero models implemented background-fetching for paginated pages to make the search global. 3. The Diacritics Separator Most models used a simple .toLowerCase() for filtering, breaking on accents. Only a select few implemented robust normalization (.normalize(&#x27;NFD&#x27;)) to handle diacritics correctly. 4. Local models struggled Local inferences failed to keep up on my low end hardware (7700x 64gb, rx6700 10gb). Gemma4-26b underperformed significantly, generating a fatal PHP error and scoring 18&#x2F;100. The Standouts The Winner: Claude 4.7 Opus (68&#x2F;100). It wrote highly performant JS (caching DOM text, 120ms debounce), handled diacritics perfectly, and used modern WordPress i18n. It stands out as the most capable direct replacement for Copilot Pro Opus. The Value King: GLM 5.1 (61&#x2F;100). GLM secured a notable 2nd place before Opus 4.6! When checking OpenRouter, GLM 5.1 ($1.05 in &#x2F; $3.50 out) is ~3-4x cheaper than Sonnet 4.6 and ~5-7x cheaper than Opus 4.6&#x2F;4.7, making it a very cost-effective alternative for this task. The Leaderboard 1. Claude 4.7 Opus plan – 68 2. GLM 5.1 – 61 3. Claude 4.6 Opus plan – 59 4. Mimo v2.5 pro – 58 5. Qwen 3.6+ – 55 6. Sonnet 4.6 – 55 7. Gemini 3.1 pro – 53 8. Kimi K2.6 – 49 9. GPT 5.4 xHigh – 49 10. Gemini 3 flash – 47 11. Claude 4.7 Opus fast – 46 12. Minimax m2.7 – 36 13. Gemma4-e4b (Local rx6700) – 32 14. Gemma4-26b (Local CPU) – 18 Takeaway Even the best LLMs default to the path of least resistance: &quot;just make it work.&quot; If you want native-feeling, fully integrated UX, you cannot rely on the model&#x27;s implicit knowledge; you have to explicitly prompt for it. I&#x27;ve published the full leaderboard, the exact prompts used, the detailed scoring grid, and all the generated code in the GitHub repository here: https:&#x2F;&#x2F;github.com&#x2F;guilamu&#x2F;llms-wordpress-plugin-benchmark I will be testing Level 2 prompt next, feeding the models a Wordpress+Gravity Forms reference file to see how they adapt.",
+      "Here&#x27;s why I use Cursor. My company pays for it, although I could switch to Claude Code or use Codex more since I also have ChatGPT enterprise account.* Perhaps could be solved with the right terminal software, but I like the GUI for seeing my running agents and viewing all my conversations* Works with multiple model providers in the same tool. I probably worry about cost optimization more than my employer would care for me to, but I frequently switch between openai&#x2F;anthropic and switch between model sizes to use the tool that I think can get the job done for the least money. Another thing I like is having a long conversation with an expensive model, then I can switch to 5.4-nano to cheaply extract some little piece of information or summary from the conversation. Really this is big being able to switch model providers throughout the months without having to change my interface.* Good support for the various ways of providing context. Rules, AGENTs.MD&#x2F;CLAUDE.md files (if you want it to automatically read those), skills. Good hook support.* I think the agent diff review experience is pretty good, but maybe it works similarly when you hook the cli agents into an editor, IDK.* The default shell sandbox behavior is quite good. Every shell command runs in some sort of sandbox so that read only commands work without approval. The model asks for more permissions when it tries to do something that needs more permissions like network access or writing outside of the workspace directory. I know Claude code has a similar feature you can use.* Good fork &#x2F; revert conversation to checkpoints, with the option of reverting the code or just reverting the conversation.* Feels decent that I am an API customer through Cursor. I don&#x27;t hit Claude limits. Cursor doesn&#x27;t have an incentive to limit reasoning or token usage, although they do have an opposite incentive.* They are reasonably responsive to bugs and feature requests through their forum.* Works well with a lot of repos &#x2F; folders added to your workspace. I probably should organize all my stuff under a single directory, but alas I have like 8 different folders added to my workspace and it handles this well. Perhaps Claude --add-dir support works fine too.DOWNSIDES:* They are not quickly adding the best open source models to Cursor. Like Kimi 2.6 or whatever. Possibly not incentivized to given their Composer models.* Don&#x27;t love the subagent support. I can define custom subagents although it is not easy to get models to use mine instead of the builtin ones. The builtin ones do not allow me to control what model they run, so they will always run something like composer-2-fast, which is a fine model for all I know, but I would like to control it. Also, I would like if you could optionally make the subagent experience more first class. Like browse all the subagents and continue conversations with them or switch their model etc, although that is probably tricky &#x2F; weird.",
+      "These days I reach for Codex CLI more than Claude Code. Not just for token economics, Codex has been catching up fast and is already ahead in some areas. It was open source from day one, arguably better code quality than the leaked Claude Code source, yet nobody cared. It&#x27;s been improving quietly under the radar.I subscribe to ChatGPT Pro, but Ralph + Fast Mode can still burn through tokens. My company has a sizable Cloudflare credit from the Startups program (https:&#x2F;&#x2F;www.cloudflare.com&#x2F;forstartups&#x2F;) that we&#x27;re barely using. Workers AI has some interesting models like Kimi K2.5, Gemma 4, GLM-4.7-Flash, GPT-OSS-120B, so I wanted to route Codex through them.Tried OpenCode&#x27;s Cloudflare provider first but Codex&#x27;s UX fits me better and the integration felt incomplete. Workers AI has an OpenAI-compatible API so I expected it to just work with Codex. Nope. The Responses API surface doesn&#x27;t map cleanly. A local proxy was the simplest fix so I had Codex write one.It&#x27;s a small TypeScript proxy that translates between Codex CLI and Workers AI. Clone, add credentials, npm start, done. There&#x27;s a shell wrapper (codexcf) that handles daemon management and model catalog automatically.Been running Kimi K2.5 for a day, works well enough for my workflow. Gemma 4 looks promising too, and Cloudflare told me Qwen 3.5 is coming soon. GLM 5.1 probably not far behind.If you have Cloudflare credits collecting dust, this might be a good way to spend them.",
+      "https://preview.redd.it/nlsx9qzdajzg1.png?width=1160&format=png&auto=webp&s=573e734c8665fc514329000b078a3d01ac97c9f5 I switched from OpenCode Go to Kimi, but the usage limits on the Moderato plan feel comparable to Claude Pro, even though Kimi 2.6 is significantly cheaper. I bought a new subscription, and after just 7 hours of fairly light coding work, I had already used 25% of my weekly quota. My workflow was mainly using Kimi for planning and DeepSeek 4 Flash for implementation. With OpenCode Go’s 3× limits for Kimi 2.6, I was able to get substantially more usage out of the same model than I can with Kimi’s own Moderato plan for half the price. I really wish they had a refund policy. Now I’m basically stuck with a subscription that doesn’t match the usage I expected. &#32; submitted by &#32; /u/Embarrassed-Ebb-9794 [link] &#32; [comments]",
+      "You can swicth to Sonnet 4.6. It is even an fantastic model for coding, without changing you subscription. Here the 5 hours window limit is much more larger, if using it with specific tasks.If you want to change the LLM, my advice is Kimi K2 that&#x27;s much more chip and very skilled for coding.(you are right: Opus is a very token-consuming even in my experience, but often it is over-skilled and you don&#x27;t need it)",
+      "I’ve been maining Kimi k2.6 through opencode go and openrouter for a week and I can say it’s the same experience as when I was maining Sonnet 3.5&#x2F;4 late last year. Not as good or as fast as Claude Code on Opus now but definitely enough for casual&#x2F;hobby use. The best part is multiple choices for providers, if opencode gimps their service, I’ll switch",
+      "One anecdote: I&#x27;ve been using Kimi K2.6 exclusively for code work for about 1 week now (since it was released) with opencode. I don&#x27;t really miss claude&#x2F;codex. Kimi is much faster and cheaper and good enough for all my uses cases writing elixir and ruby code. And it&#x27;ll only get better&#x2F;cheaper.",
+      "WeZZard 我有两个 Claude Max 账号和一个 ChatGPT Pro 账号，退订过 Google AI Ultra。我觉得这一次 Kimi K2.6 很能打，并且视觉能力比 Claude Opus 4.7 的 Reasoning Effort 开到 xhigh 还要高。目前已经可以满足我的非工作任务编程，以及 Harness Agent 还有 Evaluation Agent 的全部需求了。当然，我升级到了 699 套餐。 2天前广东 赞 回复"
+    ],
+    "signal_key": "retention__vibe_coding__comparison"
+  },
+  "retention__vibe_coding__other": {
+    "boundary_note": "External signals cannot distinguish whether friction comes from model capability, prompt patterns, or specific use cases.",
+    "comment_count": 11,
+    "content_hash": "60f1cac328890ba6adedfb072afea134cb9833d918aff52d53be67a5e70437f9",
+    "generated_at": "2026-05-07T06:26:25+00:00",
+    "how_i_interpret_this": "I think this might relate to users' experiences with different AI coding tools and their performance in various scenarios. Possibly some comments may be running into issues with memory and processing constraints, as well as comparing the capabilities and token efficiency of different models. This could be about users' preferences for certain tools over others based on their specific needs and workflows.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "completion speed"
+    ],
+    "representative_comments": [
+      "今日项目 Vibe 👨‍💻 OpenAI 终于开始对刷出来的 Plus 和 Pro 动手了。第一批先遭殃的是 Pro，已经封了一大批号，Plus 现在看起来还算安全一点，但估计也只是时间早晚的问题。便宜 Token 的好日子大概率是真的快到头了，后面十有八九只能转向土耳其 Pro 这种方案，整体成本会明显往上抬。不过不用又是不可能的，毕竟 Codex 现在是真的用出感情了，越用越觉得对路。它那种不往身上挂太多 Skill 和工程化包装、更多靠快速微调和顺手引导把事情往前推的路子，很多时候反而更快、更稳，也更合我的脾气。趁便宜 Token 还没彻底死透，还是得再多吸两口。Dario 最近这阵子有点拉跨，sama 这边又开始有点飘，还是希望 Dario 给点力，别真让 OpenAI 一路舒服下去。 另外这两天连着加班到凌晨两点，主要就是为了赶客户 Demo，人已经快有点飘渺了。短期目标还是希望五月份能顺利交货，把这波硬仗打完。真要能顺利收尾，下半年就想尽量把精力重新拿回来，多做一些自己真正想做、也更值得长期投入的事。最近越来越明显的一个感受是，公司的项目哪怕再重要，也终究只是阶段性的消耗；真正能沉淀下来、能决定你后面几年的，还是那些你愿意持续投入、并且能形成自己积累的东西。 本日 AI 新闻 📰 Kimi 发布了 Kimi K2.6。 这是一个 1T 级别的大模型，虽然上下文还是 256k，没有继续在数字上往上堆，但这次重点明显不在“纸面参数更大”，而在 Agent 能力的真实增强。最亮眼的两点，一个是 Agent Swarm 能力明显加强，可以支持 300 个并行子 Agent 同时执行；另一个是长时工具调用终于做得像回事了，官方给出的说法是可以连续 12 小时不间断调用 4000+ Tools 持续执行。这条路线我觉得是走对了。大家现在慢慢都明白了，Agent 不是单纯把上下文拉长、分数做高就算完事，真正有价值的是能不能稳定地跑多线程、多工具、长链路任务。社区这次的反馈也非常正向，连 Hermes Agents 的创始团队都专门发推表扬。国内几家大模型公司里，Kimi 一直算是我比较尊敬的一家，和 DeepSeek、豆包差不多是一个层级，至少看得出来是在认真做科研，也有自己的判断，不是一门心思只想着面向评测集做表演。这次虽然版本号看起来只是从 2.5 到 2.6，提升似乎不算夸张，但实际上大家的体感提升是很扎实的。再加上最近 Kimi 招人和融资的动作都不小，也说明他们内部对后面的节奏大概率是有信心的，祝他们顺利吧。 阿里发布了 Qwen 3.6-Max，支持 1M 上下文。 不过和 Kimi K2.6 比起来，社区反应就平淡得多。我自己还没来得及做实际的编程测试，但按照 Qwen 这条线过去的表现来看，支持 1M 上下文本身并不等于上下文有效性真的高。很多时候“能塞进去”和“能稳定用起来”中间差着十万八千里，市场现在也越来越不吃单纯报数字这套了。阿里最近的状态其实也挺容易理解，junyang 离职以后，外界一直盯着看它到底有没有伤筋动骨，所以他们必须尽快证明团队和节奏还稳得住。这版新模型看起来多少还是有一些进步的，至少不像某些版本那样属于负优化，这点算是好消息。但大家真正担心的，始终还是后面还做不做开源。Max 这一支历来不开源，大家也都默认了，可新的开源模型如果迟迟不发，社区的疑心只会越来越重。现在的大模型竞争，已经不是你自己说“我还行”就够了，外部得持续看到真东西才会信。 OpenAI 偷偷发布了 GPT-Image-2。 这次我觉得是一个相当明显的大升级。相比 GPT-Image-1.5，最直观的改善就是文字终于不会一多就立刻乱码了，光这一点其实就已经足以让它在很多场景里直接替代 Nano Banana。OpenAI 在模型调教这种偏玄学但极其关键的事情上，经验确实还是深。我的感觉是，这次的 GPT-Image-2 已经不太像一个单纯的图像模型了，更像是在背后掺了一套 Agent 式的流程，尤其是在保持文字完整性这块，应该做了额外的处理。国内这边字节的 Seedream 其实也不错，至少在文字生成上一直不算差，但对复杂场景的承载能力还是弱一点，GPT-Image-2 这一版在这方面是明显占优的。我感觉它拿去做 PPT 工具会挺有潜力，尤其是那种需要图文混排、还得保证标题和说明文字别崩的场景，有兴趣的朋友确实可以试一试。 Claude 发布了 Claude Design。 Figma 股价当天应声大跌 8%，继 Google 发布 Stitch 之后又挨了一刀，Figma 估计心里都在想，你们这些搞 AI 的也不能总盯着我一个羊薅。说实话，市场情绪归情绪，产品本身倒也没必要吹得太夸张。它大体上还是 Claude Code 加上一套 Skill 的产品化套壳，生成出来的风格和 Anthropic 官方那个 frontend design skill 的味道非常像，擅长的依旧是网页直出和布局搭建。这些能力其实以前就都有，只不过这次是被 Anthropic 包装成了一个更完整的产品形态。相比 Google 的 Stitch，Anthropic 在模型出图这一块还是天然短板，整体能力也会弱一些。所以这东西短期内未必真能对 Figma 形成多大的实质冲击。反倒是 Anthropic 现在更该专注的，还是先把模型主业重新拉稳。Opus 4.7 这波，是真让不少死忠用户都开始跳船了。 本日个人想法 🤔 OpenAI 终于开始亲自做 Memory 了，而且这次不是那种浅尝辄止的小功能，而是明确支持长时记忆和跨线程记忆。这个动作一出，OpenClaw 和 Hermes 这类产品原本最重要的一层护城河，立刻就被削掉了一大块，各种独立 Mem 工具也基本都要跟着遭重。我之前其实就说过，Memory 这个方向离大模型厂商实在太近了，技术壁垒并没有大家想象中那么高，本质上还是一套做得更精细、更工程化的 RAG。既然如此，几家头部模型厂商完全有能力自己撸一套出来，而且因为模型能力本身就在手里，自己做出来的效果和经济性，大概率还会比第三方外挂方案更好。 再进一步想，OpenAI 之前为了上下文压缩都已经单独掏过一个模型出来，那 Memory 这套流程里的压缩、保存、抽取、遗忘，我怀疑他们后面大概率也会专门做一套模型级的处理机制。这就是第三方永远最难补上的差距。前阵子 Miro Thinker 的那套实践也印证了这一点，Memory 真往深了做，其实完全可以基于个人长期积累的数据，定期训一个非常小的模型，把记忆直接内化进模型知识里。这样一来，很多抽取、向量化、召回的中间步骤都可以省掉，速度更快、上下文更省、召回效果也未必差。这就是做在大模型厂商伸手可及范围里的业务最大的悲剧。毁灭你，与你何干，单纯只是因为我想做，而且我有能力做得更好。 我自己最近也在这块折腾了一个版本。手头自有项目里，是用 OpenViking 做底座，再叠一点类似 Hermes 那种自进化的思路，先跑出了一版 Memory 系统，当前效果还算可以。就我的体感来看，文档化、抽取、再交给 LLM 做理解，这一套组合拳，可能会成为未来自建 Agent 时手撸一套 Mem 系统的主流方案。不过 OpenViking 突然改成 AGPL 3.0 还是挺让人措手不及的，这种时候就很容易重新激起“要不干脆自己手撸一套”的冲动。真要做的话，全 Rust 方案看起来倒也不是不靠谱。只能说，AI 时代很多护城河看似很宽，其实往往只是在等上游厂商什么时候决定亲自下场而已。 本日 AI 笑话 😂 最近还有个很抽象的乐子，几位老哥根据泄露出来的 Claude Code 源码，直接发了一篇 arXiv 论文。现在水论文确实是越来越方便了，至于这玩意到底是不是让 Claude 自己原汤化原食写出来的，我就先不展开猜了……",
+      "Disclaimer: this is vibe-coded — (&lt;- I lost you there) the README, most of the code, and the binary format reverse-engineering were done with Claude. But the tool works and I use it everyday for some days now. As Baudelaire said &quot;qu&#x27;importe le flacon, pourvu qu&#x27;on ait l&#x27;ivresse.&quot;<p>~I~ Claude built a tool that decodes Figma&#x27;s internal binary protocol (Kiwi format over WebSocket) to extract the full scenegraph — every node, vector path, and style — without hitting the REST API.<p>Why: Figma&#x27;s REST API has aggressive rate limits. The official MCP server requires a paid Dev Mode plan. I needed to explore designs from my AI coding tools without constantly getting 429&#x27;d.<p>It helps me to:<p><pre><code> 1. extract the svg in a clean way (even the SVG export from figma likes to write the path as 12.0000001, even though the protocol does have 12 in it) and images 2. Get mapping from what I see in figma &lt;-&gt; what i see in the exported html 3. It helps me help our designer to produce an actual &quot;resizable&quot; figma, so that they finally understand the pain of &quot;ok it works when you click play on the iphone 17 frame you put, but what about an iphone12 ?&quot; (I was always able to say that, but before I wasn&#x27;t able to point out what was wrong, now I can) </code></pre> How it works: When you open a Figma file in the browser, the editor loads the entire scenegraph via WebSocket as Kiwi-encoded binary frames. This tool captures those frames via Chrome DevTools Protocol, decodes the binary data (including two undocumented vector formats), and gives you structured JSON.<p>What Claude reverse-engineered:<p><pre><code> - The fig-wire frame format (schema delivery over WebSocket) - commandsBlob: Figma&#x27;s pre-computed SVG path commands (MoveTo, LineTo, CubicBezier, ClosePath) - vectorNetworkBlob: the editable path data (vertices, segments with Bezier tangent handles, regions with loops) - All three are documented as Kaitai Struct specs (.ksy) so you can generate parsers in any language </code></pre> Ships as: JS lib (zero deps), CLI, MCP server (Cursor&#x2F;Windsurf&#x2F;VS Code), and Claude Code plugin.<p>Binary format specs, sample fixtures, and everything else: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;allan-simon&#x2F;figma-kiwi-protocol\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;allan-simon&#x2F;figma-kiwi-protocol</a><p>I&#x27;m not a lawyer but my understanding is this is an interoperability tool under EU Directive 2009&#x2F;24&#x2F;EC Article 6. No Figma code is included: it only decodes the wire format of data transmitted to your own browser.",
+      "https://preview.redd.it/z4b01gklaczg1.jpg?width=1080&format=pjpg&auto=webp&s=3cefa63d5d15eac5eedbb39ef19d6c476b22ae64 Just a reminder, the harness you use can makes a huge diffrence (your llm client and interface bascially), It's is way more important than people think, I'm using pi.dev for over 2 months and oooh boy Qwen3.6 suddenly become a monster. my local machine + pi + exa web seach + agent-browser extenion and this setup can solve 80% of all my use cases which are: now - coding (python / rust / c++) - anything require maintance / adminstration on my machines (linux machines mainly) - web research, qwen3.6 35b with exa web research is a monster and can 100% replace perplixity for me and even give better results (only sacrific some time as side effect) complex planning task i delegate it to kimi2.6 and coding itself is handled by Qwen3.6 at the end: Use your Qwen3.6 with Pi coding and forget 😃 &#32; submitted by &#32; /u/Willing-Toe1942 [link] &#32; [comments]",
+      "Dam: IQ3 is just over 12GB, Q4 just over 16GB :( Let's hope that Bartowsky manages to squeeze some 0.5-1GB away. Qwen 3.5 27B | Hidden Dimension = 4096 Qwen **3.6** 27B | Hidden Dimension **= 5120** 3.6 is \"smarter\" but heavier on VRAM. \\----------- Waaah I can't run IQ3 any more :\\*( I would have to downgrade Quant :( That's for both 12GB and 16GB GPUs owners, /sad",
+      "Got told off at work that they'll cut me off from Claude if I don't stop using it on the weekends. So what could I use locally for agentic coding? I have a 9950X3D / 96GB / 5070TI 16GB Any tips would be appreciated :)",
+      "Use kimi 2.6 for planning and a cheap model (preferably local) for execution, and then kimi once again for reviewing it. Then finally I review the code. Saves a lot on tokens.",
+      "I am really enjoying using Qwen 235B A22B thinking and it works beautiful. edit : its the NVFP4A16 version. hiting nearly 15 tokens/s",
+      "龙虾仙人 我用2月开始订阅kimi，199日常够用，重度开发得699那个，目前k2.6效果还行，大多数情况都能一遍过，约束做好 2天前四川 26 9"
+    ],
+    "signal_key": "retention__vibe_coding__other"
+  },
+  "success__agent__bug": {
+    "boundary_note": "External signals cannot distinguish whether friction comes from model capability, prompt patterns, or specific use cases.",
+    "comment_count": 5,
+    "content_hash": "ede36a440586c72bee5fee148e9284ad849a3d1403ead9af893fc34cf9f85711",
+    "generated_at": "2026-05-07T04:50:50+00:00",
+    "how_i_interpret_this": "I think this might relate to intermittent connectivity issues with the Kimi web bridge, as well as performance problems causing the agent to crash or freeze during tasks. Possibly some comments may be running into difficulties with the agent's reliability and efficiency when attempting to complete tasks, which could be about the agent's ability to maintain a stable connection or process requests within a reasonable time frame.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "task completion time",
+      "agent crash rate",
+      "task abandonment rate"
+    ],
+    "representative_comments": [
+      "So currently im facing a huge issue with kimi, the first one was that kimi web bridge is ass, when you tell kimi claw to do a task he will just reply that kimi web bridge is offline or something like that, it doesnt make sense becuase when i go to te extension it says kimi webbridge active so yeah thats a huge issue. My main issue tho is that it stopped working at all, as you guys can see since yesterday 4:19 pm its not working its currently 10:08 am, anyone know how to fix the issues i have? https://preview.redd.it/x96ib3v09jzg1.png?width=1917&format=png&auto=webp&s=28bc4093d47b7d7b36c4d8ffda40d4ca3d02d15f &#32; submitted by &#32; /u/Dream_tin [link] &#32; [comments]",
+      "HZSD “帮我下载过去 10 年全球排名前 8 的轮胎公司的财务报告”。Kimi 2.6 agent模式下搞了 5 个小时都没搞全 8小时前北京 赞 回复",
+      "HZSD 充值后在 agent 模式下让它帮我把全球排名前八的轮胎公司的财务报告下载下来，花了 5 个小时都没成功 昨天 00:37北京 赞 2",
+      "菠萝冰棒🍍 2.6的agent真的卡的要死撑不过三轮对话就卡崩了让我稍后尝试 4小时前重庆 赞 回复",
+      "亚提斯（炒股养家） kimi claw经常罢工咋整？ 2天前陕西 赞 回复"
+    ],
+    "signal_key": "success__agent__bug"
+  },
+  "success__agent__other": {
+    "boundary_note": "External signals cannot distinguish whether the user's frustration stems from the AI's understanding of instructions, the limitations of the agent's capabilities, or the user's expectations of the product's performance.",
+    "comment_count": 3,
+    "content_hash": "062f81a3daf0e1ca8fdafdd9eaa3c3465443d8154253037094924a86e786a2cb",
+    "generated_at": "2026-05-07T04:51:26+00:00",
+    "how_i_interpret_this": "I think this might relate to users experiencing unexpected behavior when using the agent feature, possibly leading to confusion or inefficiency. It seems like users might be running into issues with the agent's autonomous actions, which could be about the complexity of the task or the way the AI interprets instructions.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "agent spawn rate",
+      "task completion time",
+      "user intervention frequency",
+      "task success rate"
+    ],
+    "representative_comments": [
+      "i said discuss and it one shot built the whole damn thing. the main agent spun up multiple agents each with avatar and went hard at work for 20 mins. i had to give it a domain... Kimi 2.6 agent swarm &#32; submitted by &#32; /u/Such-Foot7210 [link] &#32; [comments]",
+      "momo 第一次swarm集群就跑了34.7%额度，心好痛，199档的额度跟假的一样，但是集群出的结果和我自己多次单agent产出的没啥特别大的区别，有没有人告诉我这个集群该怎么用啊 昨天 12:36山东 赞 2",
+      "老王 我199套餐 一个集群任务跑不完 5小时前上海 赞 回复"
+    ],
+    "signal_key": "success__agent__other"
+  },
+  "success__general_chat__bug": {
+    "boundary_note": "External signals cannot distinguish whether the issues stem from the AI's natural language understanding, the voice recognition system, or the user interface design.",
+    "comment_count": 3,
+    "content_hash": "b6f37775ea1f3f6bfdc5b27796303134380fee0e3e2c5e536f4fabe6dc2ba2e3",
+    "generated_at": "2026-05-07T02:23:09+00:00",
+    "how_i_interpret_this": "I think this might relate to issues with the AI's ability to maintain context over longer conversations. Possibly some comments may be encountering problems with the system's understanding or processing of extended dialogues. This could be about the AI's limitations in handling complex or lengthy interactions.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "long-context reset frequency",
+      "interruption rate",
+      "voice recognition accuracy"
+    ],
+    "representative_comments": [
+      "Every long generation i make it just generates nonsense, do you generate per sentence or sth?",
+      "中年自律小阿姨 打电话功能不好用，语音识别错误率很高，话还没说完就开始回答，又不能中断体验感超差 2天前湖北 赞 回复",
+      "咩啊 我也是，直接不能对话@Kimi智能助手 昨天 12:24四川 赞 回复"
+    ],
+    "signal_key": "success__general_chat__bug"
+  },
+  "success__other__bug": {
+    "boundary_note": "External signals cannot distinguish whether the service unavailability and bugs are due to infrastructural limitations, software defects, or intentional throttling to upsell premium features.",
+    "comment_count": 43,
+    "content_hash": "99953ece8546167e6e237ef41b491e6631b55008cb97220de0ff603fd9edcb0b",
+    "generated_at": "2026-05-07T04:49:07+00:00",
+    "how_i_interpret_this": "I think this might relate to users encountering service unavailability and bugs that affect their experience with the AI tool, possibly due to high demand or technical issues. It seems like some comments may be running into issues with service limits and unexpected behavior, which could be about the system's inability to handle peak loads or a flaw in the user interface not possibly communicating usage limits and system states.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "user churn rate after encountering bugs",
+      "error rates in API calls"
+    ],
+    "representative_comments": [
+      "“不好意思，刚刚和 Kimi 聊的人太多了。Kimi 有点累了，可以晚点再问我一遍。” 紧随其后的，是一行刺眼的灰色小字：“高峰期算力不足，请耐心等待，或前往升级。” 好家伙，不知大家有没有遇到过，如果不是亲眼所见，我是真想不到，现在的AI工具还有这么拉垮的操作。 事情是这样的，今天上午，为了给社群里的伙伴准备最新的AI行业参考「全球AI领域要闻精粹」，我准备用AI工具来搜集整理内容。 之前都在用国外的那几款实力派AI产品来操作，但今天突发奇想，想着用一下国内的Kimi智能助手来是试一下。毕竟最近呜呜轩轩的，又是被套壳，又是马斯克点赞的。 我打开了Kimi，让它帮忙汇总一份2026年3月22至24日的最新的 AI 行业日报，并给到了一些指令和参考的样式。 结果，迎接我的不是高效的生产力输出，而是一次干脆利落的“罢工”： 就是开头提到的那句：“不好意思，刚刚和 Kimi 聊的人太多了。Kimi 有点累了，可以晚点再问我一遍。” 起初，我以为只是常规的服务器拥堵。 但当我切到它的智能体（Agent）页面，明明后台白纸黑字显示着“还有 3 次可用额度”，点击运行后，依然弹出了那句冷冰冰的提示：“和 Kimi 聊天的人太多啦，订阅会员可进入独立的优先队列～”最后，直接甩出一个引导充值会员的按钮。 看着屏幕上这套行云流水的“逼单”连招，我突然感到一种荒谬。 就在这两天，全网都在狂欢 Kimi 的底层大模型被美国明星应用 Cursor “套壳”调用，媒体高呼“中国大模型反向输出”；资本市场上，月之暗面的估值更是狂飙至 180 亿美金，风光无两。 但作为支撑它走到今天、每天在一线使用它的 C 端创作者，我们看到的却是一个连基础指令都无法响应、只顾着催促掏钱的“算力刺客”。 作为一直追踪大模型产业链演进、技术突破与商业化路径的AI自媒体，试图去探寻一下，这背后，到底发生了什么。 全网吐槽的“Kimi累了”：一场集体信任的崩塌 起初，我还天真地以为这只是我个人的偶发遭遇。 但当我怀着疑惑打开某红书，搜索“Kimi 有点累了”这几个字时，才发现这根本不是什么个例，而是满屏的“灾难现场”。 搜索结果里，密密麻麻全是吐槽和差评。有人无奈发问：“Kimi 最近是不付费就不能用了吗？”有人嘲讽：“这个一天到晚都累的 Kimi 简直演我。”而在评论区，更是充斥着被激怒的用户的声音： “感觉 Kimi 怕是不想干了，决定不用了。” “弃用 Kimi，直接卸载了！” “老子马上把你删了……” 所以，在我看来，当一个生产力工具把“薛定谔的免费额度”当成常态，用一次次的“我累了”来变相逼迫用户买单时，它透支的就不再是某一个人的耐心，而是整个 C 端基本盘的信任。 差强人意的“AI 日报”：被降级的不仅是体验，还有模型智商 让人破防的，还不是排队和卸载潮，而是你耐着性子等来的结果，根本没法用。 在被拒绝之后，Kimi 也“施舍”般地开始运行了。我的指令非常明确：“请帮我汇总 3 月 22 日到 24 日这几天的 AI 要闻。” 结果呢？它给出的答复虽然勉强能看，但仔细一盘逻辑和时间线，里面堂而皇之地塞进去了好几条 3 月 20 号以前的旧闻。 这让我对其目前的模型质量产生了深深的怀疑。 在大语言模型的逻辑里，这种现象有可能意味着一件事：系统在高峰期为了节省算力资源，对非付费用户的请求进行了“暗中降配”。它不仅减少了联网检索的节点深度，甚至可能在后台悄悄切换到了参数量更小、推理能力更弱的模型版本。 名义上，你依然是免费用户；实际上，在笔者看来，你不仅在排队优先级上被踩在脚底，连享受到的“模型智商”都是大打折扣的阉割版。这种不仅要钱、还要牺牲内容质量的傲慢策略，正在加速用户的流失。 画风突变背后：当“投资人基因”接管商业化 很多老用户可能会疑惑，Kimi 以前那个“技术极客”、“慷慨大方”的形象去哪了？为什么最近画风突变，吃相变得如此急躁？ 如果稍微关注一下月之暗面早前的公开人事变动，或许能找到一些端倪。据媒体报道，2025年12月初，一位被朱啸虎 “手撕” 后，有着深厚风险投资（VC）背景的女性高管正式出任 Kimi 总裁，全面接管了公司的整体战略与商业化落地。 从企业发展的阶段来看，这是一种必然。但从资本市场的逻辑来看，投资人的基因天生就看重 ROI（投资回报率）、转化率和各项财报数据指标。当一套严密的商业化考核体系开始运转时，公司的重心不可避免地会从“纯粹的技术理想”向“高效的商业变现”倾斜。 在这套一切向 ROI 看齐的逻辑下，海量免费用户的“白嫖”算力，就成了亟待优化的成本包袱。 于是，我们看到了各种极其精算的操作：限制并发、卡顿排队、降配模型、强推会员。 外界很难不将这种对用户体验的妥协，与管理层全面转向商业化变现的战略联系起来。 当冰冷的数据和转化率指标凌驾于用户体验之上，那个曾经让人感到惊艳的 AI 助手，难免会让人觉得变成了一个无情的逼单机器。 Cursor“套壳”狂欢：掩盖不住“算力耗材”的尴尬 而 Kimi 真正优质的算力去哪了？我觉得有必要扒一扒这两天被全网吹捧的 Cursor 事件。 很多声音把 Cursor 调用 Kimi K2.5 API 视为“民族之光”，但冷静下来看，这恰恰暴露了 Kimi 商业化道路上的另一种尴尬：它正在沦为底层的“算力耗材”。 Cursor 拿着 Kimi 提供的廉价 API 算力作为底层支撑，加上自己做的优秀产品交互，转身每个月向全球程序员收取 20 美金的订阅费。在这个链条里，谁掌握了终端用户和交互入口，谁就掌握了定价权。 Kimi 承担了极其高昂的服务器和推理成本，却把利润最丰厚、离用户最近的环节拱手让人。这或许能带来 API 接口的流水，但也意味着 C 端免费用户被彻底排在了算力分配的鄙视链底端。 当然，在深究商业模式的尴尬之前，我们必须客观且坦诚地承认一点：Cursor 的核心团队之所以在全球众多大模型中选中了 Kimi K2.5 的 API，绝不仅仅是因为价格便宜。 从技术底座来看，月之暗面依然是国内目前大模型赛道里的头部玩家。它在超长文本解析、复杂代码逻辑理解上的硬实力，一定程度上代表了现阶段国产大模型的水准，这也是为什么全网最初会为它的“反向输出”而感到由衷的自豪。 然而，技术底座的强大，并不能掩盖其在终端商业化策略上的尴尬。 别让“算力刺客”毁了国产AI的骄傲 作为一路看着 Kimi 成长起来的国内早期用户，客观地说，Kimi 确实是国产大模型赛道里一条了不起的“鲶鱼”。 它曾经凭借一己之力，硬生生拉高了整个行业对长文本处理的标准，极大地推动了国内 AI 技术的普惠和进步。 这是一家有技术理想的公司，对于这样一家身处激烈竞争中的独角兽来说，探索商业化变现、追求 ROI 和收益率无可厚非。毕竟，先在残酷的市场中活下来，才有资格谈改变世界。 但是，商业化绝不应该等同于“竭泽而渔”，更不应该以牺牲核心用户的信任、暗中降级产品体验为代价。180 亿美金的估值，代表着资本和市场对它的极高期待，但不应该成为套在用户脖子上的枷锁。 我们真心希望，经历了这次全网吐槽的风波后，Kimi 的管理层能够冷静下来，度过眼前的“变现焦虑期”，找到技术信仰与商业回报之间的平衡点。 我们期待它重新做回那个惊艳全网的、靠谱的高效助手，而不是最终沦为一个只会靠“软性宕机”来催你交钱的“算力刺客”。 【独立观察与免责声明】 基于真实体验： 本文关于 Kimi 的系统提示、输出结果及评测截图，均基于近期特定时段的真实使用记录。结论仅代表个人的独立行业观察与主观感受，不构成任何投资或商业决策建议。 信息公开透明： 文中涉及的企业融资、高管变动信息及部分网友反馈，均引述自全网公开报道与社交平台。我们已尽普通人的合理核实义务，绝无造谣抹黑或恶意商业诋毁之意图。 建设性初衷： 我们始终高度认可 Kimi 在国产大模型领域的技术实力与开拓性贡献。本文旨在探讨大模型商业化进程中的共性痛点，呼吁行业良性发展。由于 AI 产品处于极速迭代中，如涉事实偏差，欢迎相关方联系沟通更正。",
+      "Hi I am new to kimi I took out the basic sub plan for testing. I keep getting this today after a solid day of use yesterday. I have plently of monthly usage available, see screenshot. I tried googling and looking for session limits but I dont see any thing published or in any interface to check. Does anyone know how it works. Thanks Service temporarily unavailable. EDIT\\ reply from support team) To keep things running smoothly, Kimi uses rolling limits for heavy task loads. Depending on your recent volume, you might encounter a 5-hour or 7-day reset window . You don't need to take any action—once the timer expires, you'll be all set to start new tasks. Pro Tip: You can see exactly when you'll be back online by checking the &quot;Subscription&quot; tab in your profile. So I dont see anything in the dash board! Any Kimi Mods on this forum to clear this up! {&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;id&quot;:&quot;68_1777298432722&quot;,&quot;error&quot;:{&quot;code&quot;:-32003,&quot;message&quot;:&quot;Error code: 403 - {'error': {'message': \\&quot;You've reached your usage limit for this billing cycle. Your quota will be refreshed in the next cycle. Upgrade to get more: https://www.kimi.com/code/console?from=quota-upgrade\\&quot;, 'type': 'access_terminated_error'}}&quot;,&quot;data&quot;:null}} https://preview.redd.it/qvf15dhztqxg1.png?width=1064&format=png&auto=webp&s=bdc04cfd44f57f00ff8480b52aec434c29ca4110 &#32; submitted by &#32; /u/Radiant_Initiative63 [link] &#32; [comments]",
+      "昨天碰到一个恶心人的 Kimi 客户端 bug［api用起来没有这样的问题］，想看看有没有人遇到过类似情况。昨天发了一篇，不过可能是太晚了，而且kimi客户端用的人本来就少，没有回音。 先说结论： Kimi 在长间隔续聊时，似乎会把系统自动附加的 <meta timestamp=\"...\"/> 暴露到模型可见文本里。随后模型又会把这个本应属于系统侧的 meta 标签，误判成用户手动输入的提示注入内容，进而拒绝继续对话。 而且它不是单纯看到 meta 就拒绝，而是会自己做一套错误的时间推理： 它把会话最开始建立的时间，当成整个会话后续消息的时间基准 我中间隔了大约 10 小时再继续发消息 新消息前面的 timestamp 是当前实际时间，比如 14:5x，然后对话开始时间是4:5x 然后它就得出结论了：这个 14:5x 不可能是系统自动附加的“当前会话元数据”，只能是我手动伪造的 meta 标签 然后就逆天，指控我在做“提示注入”“系统伪装”“meta 控制”。 问题在于，这个 meta 根本不是我手动输入的。 我后面专门做了测试，发现它反复强调的一点其实暴露了 bug 根因： 它不是按“当前消息的实际发送时间”理解 timestamp，而是错误地拿“会话起始时间”做一致性判断。 也就是说，真正的问题很可能是两层叠加： 第一层，系统自己的 <meta timestamp> 泄露进了模型可见文本，同时也没有做系统提示和用户提示词的区分 第二层，安全层/模型又用错了时间基准，导致长间隔续聊时稳定误判 然后就是，系统自己给消息盖了meta，模型拿旧档案时间去核对，最后反咬用户伪造meta。 我本来是愿意支持国产模型、也愿意为 Kimi 付费的用户，平时额度甚至连 10% 都很难用满。vibe coding都是通过codex实现，说实话，这次让我失望的不仅仅是模型智力问题，而是系统自己的内部问题最后变成了对我的指控，而且还指控得很自信。这是我无法接受的，已经从199档降到39档 我已经把这件事正式反馈给官方。 想问下几件事： 有没有人也遇到过 Kimi 把系统 meta / timestamp 当成用户注入的情况？ 有没有人做过类似长间隔续聊测试？ 如果后续官方有回应，我再来更新。 下面是证据部分，通过图片给出 这是系统在长对话后对我的指控 然后我就开了另一个对话，一开始他明确指出是系统加的会话标记 然后我第二天再进行对话他就觉得我这个是手动输入的meta了，难绷 截止北京时间4/14 官方无任何人工回应 我决定再发一次邮箱 另一篇说这个问题的文章已被删除，可能是措辞不太好，本篇回答后续不再更新 4/14留",
+      "https://preview.redd.it/6fkmll4ct8ug1.png?width=1623&amp;format=png&amp;auto=webp&amp;s=0bc19a669a4f8795903729ca8fcc46f2b95f8041 This started to happen last week. It's been the first month since I moved from $1 to the $99 plan and this issues keep piling up and up. What is going on? I suppose it is some sort of timeout, but it's crazy small threshold for it to kick in. Can this we modified or disabled? Other tools just wait forever if they have to, instead of canceling. I hope Kimi doesn't go the enshittification path like most products nowadays :')",
+      "LLM request rejected: thinking is enabled but reasoning_content is missing in assistant tool call message at index 52 I initially thought it was due to my update on openclaw. But I just did a fresh wipe and the same issue persist. Any refund policies? Paid for an entire year but can't even get it to work &#32; submitted by &#32; /u/asciisyaez [link] &#32; [comments]",
+      "Guys I launched this and my computer tower sucked itself into a humanoid shape and tried to walk out the window. It was only stopped when it accidentally unplugged itself. It was emitting baby crying sounds.",
+      "Anyone else facing an issue where Kimi K2.6 is working super slowly on Windsurf? Any fix around this? &#32; submitted by &#32; /u/Confident-Shop8538 [link] &#32; [comments]",
+      "I tried the 35b when it released and had major issues getting it to understand and follow instructions. Both at full precision. I stick with the 27b."
+    ],
+    "signal_key": "success__other__bug"
+  },
+  "success__other__cognition": {
+    "boundary_note": "External signals cannot definitively indicate whether one possible reading is with the user interface, the underlying document editing technology, or a lack of user education on how to perform edits.",
+    "comment_count": 1,
+    "content_hash": "65f76e5013f79dd79a6d8c226e4e3bb0f810915b8cc6af4ab0785ecd2bfb5dd4",
+    "generated_at": "2026-05-07T04:51:48+00:00",
+    "how_i_interpret_this": "I think this might relate to a user's difficulty in making post-creation modifications to a document. Possibly some comments may be encountering a technical barrier when trying to edit AI-generated content. This could be about the lack of an intuitive interface for iterative document editing.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "document editing error rate",
+      "repeat usage rate for document editing"
+    ],
+    "representative_comments": [
+      "https://preview.redd.it/2p9l8sqyuhyg1.png?width=522&format=png&auto=webp&s=8bf39a3e29a8f12c1ea2241c5e768fe7f3ee500d Hi, Yesterday I asked Kimi to do some slides related to a DOCX. It is great but I would like to make some changes. I don't see any way to keep chatting with AI to do the changes. If I click on document, then click edit I got the error of the image. Downloading and trying to edit locally, every slide is an image. How can I edit the slides? &#32; submitted by &#32; /u/racdamico [link] &#32; [comments]"
+    ],
+    "signal_key": "success__other__cognition"
+  },
+  "success__other__comparison": {
+    "boundary_note": "External signals cannot definitively indicate whether the performance gap is due to model limitations, user prompt formulation, or specific content areas outside the model's training scope.",
+    "comment_count": 1,
+    "content_hash": "d1328758bc767e2a5d9f03b7614ad57519a67a17304da94b43f701e19a287230",
+    "generated_at": "2026-05-07T02:24:54+00:00",
+    "how_i_interpret_this": "I think this might relate to a discrepancy between theoretical model performance and practical user experience. Possibly some comments may be encountering difficulties with the Qwen 3.6 MoE model's practical application compared to Opus. This could be about the model's ability to understand and respond accurately to user prompts, especially in areas where it lacks training.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "prompt accuracy rate",
+      "single-turn completion rate",
+      "query clarification rate",
+      "task completion success rate"
+    ],
+    "representative_comments": [
+      "Okay, am I the only one who no longer believes in these benchmarks!? Or is it just that local models don't work as well for me (I don't know how to use them properly), or that these benchmarks are heavily exaggerated? The Qwen 3.6 MoE model is also theoretically very close to Opus. However, in practice, the responses I get from Qwen are significantly worse than those from Opus. Opus manages to understand me and get the job done with a single prompt, whereas with Qwen, I often have to further clarify what I want to happen, or it simply fails to provide an accurate answer, especially if it's something it hasn't been well-trained on."
+    ],
+    "signal_key": "success__other__comparison"
+  },
+  "success__other__other": {
+    "boundary_note": "External signals cannot distinguish whether the inefficiencies stem from the AI's processing capabilities, the complexity of the tasks, or the way some comments may be interacting with the system.",
+    "comment_count": 21,
+    "content_hash": "8bb62c34ac7306d3924323048c57b3ce718e7ab30e3abdc76f26db1dbcf4503c",
+    "generated_at": "2026-05-07T02:16:46+00:00",
+    "how_i_interpret_this": "I think this might relate to users experiencing inefficiencies in task execution and high consumption rates. Possibly some comments may be running into difficulties with the AI's ability to understand and execute long tasks effectively. This could be about the AI's processing speed and token usage, which might be perceived as excessive or inefficient by users.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "task completion time",
+      "token consumption rate",
+      "long-task engagement duration",
+      "error rates in task execution"
+    ],
+    "representative_comments": [
+      "AndroidRadish 希望能选择性进入长任务。有时候讨论过程会出现用户输入“我希望实现xx效果，请你和我讨论一下”k2.6埋头就库库猛干执行长任务去了。而且思考→执行→思考过程中会反复强调一些用户指令，尽管防止了任务目标偏移，但感觉太废话占用token，对于长任务尤其明显。 昨天 02:49福建 赞 回复",
+      "青哥说咖啡 消耗速度太快了，配个飞书接入消耗周进度2%，还搞不明白。简单任务也执行的差，消耗快的吓人 3天前江苏 赞 2",
+      "咕噜咕噜 不行啊现在变蠢了一个简单的问题反复等等等等来回斟酌。一直在思考就是不动手处理 3小时前广东 赞 回复",
+      "once it gets to opus 4.6 level... that's it game over.",
+      "I tried Qwen3 TTS and it was slow, what is your GPU?",
+      "Floom 最近真有这种感觉，模型越更越像在一本正经地胡说，改半天还得我自己兜底 4天前北京 11 回复",
+      "momo 龙虾老是繁忙，199跑个简单任务4%额度没了。能不能透明点 昨天 23:23江苏 1 2",
+      "海十Mirage 火山的速度又慢，消耗又快（倍率计费），模型又蠢 昨天 23:57四川 1 1"
+    ],
+    "signal_key": "success__other__other"
+  },
+  "success__vibe_coding__bug": {
+    "boundary_note": "External signals cannot distinguish whether friction comes from model capability, prompt patterns, or specific use cases.",
+    "comment_count": 33,
+    "content_hash": "62c5d6fa4fc6febefbe481410f9c794a709eacbcc4ef5272a934c176b32b4a0f",
+    "generated_at": "2026-05-07T06:25:08+00:00",
+    "how_i_interpret_this": "I think this might relate to users encountering bugs and issues with the AI coding tool, particularly in the 'vibe_coding' scenario. Possibly some comments may be running into problems with model behavior, code generation, and tool integration. This could be about the model's sensitivity to prompt clarity and the challenges of handling technical tasks.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "code generation accuracy",
+      "tool integration errors"
+    ],
+    "representative_comments": [
+      "# Thank you members for the heads-up - this current release doesn't live up to my standards and I was able to reproduce a breaking bug which takes it back to the drawing board. If this is on my end and not on llama.cpp - Expect a proper re-upload of the GGUF files hopefully tomorrow (middle of the night currently) - I decided against deleting and reopening the post, keeping things transparent :) The dense sibling of the 35B-A3B drop is here, **Qwen3.6** **27B Uncensored Aggressive is out!** **Aggressive = no refusals; NO personality changes/alterations or any of that, it is the ORIGINAL release of Qwen just completely uncensored** [https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive) 0/465 refusals\\*. Fully unlocked with zero capability loss. From my own testing: 0 issues. No looping, no degradation, everything works as expected. One thing I noticed vs the 35B-A3B: this model is a bit more sensitive to prompt clarity. Vague/under-specified prompts can drift so do your best to spell out format, constraints, scope and it stays on rails. FYI so you get the most out of it. To me it seems like it's a 'coding/stem-first' model from the way it handles social interactions. To disable \"thinking\" you need to edit the jinja template or use the kwarg {\"enable\\_thinking\": false}. Heads up — Qwen3.6 doesn't support the /think and /no\\_think soft switches that Qwen3 had, so the kwarg is the way. What's included: \\- Q8\\_K\\_P, Q6\\_K\\_P, Q5\\_K\\_P, Q4\\_K\\_P, IQ4\\_XS, Q3\\_K\\_P, IQ3\\_M, IQ3\\_XS, Q2\\_K\\_P, IQ2\\_M \\- mmproj for vision support \\- All quants generated with imatrix K\\_P Quants recap (for anyone who missed the MoE releases): custom quants that use model-specific analysis to preserve quality where it matters most. **Each model gets its own optimized profile.** Effectively 1-2 quant levels of quality uplift at \\~5-15% larger file size. Fully compatible with llama.cpp, LM Studio, anything that reads GGUF (Be forewarned, Ollama can be more difficult to get going). Quick specs: \\- 27B dense \\- 64 layers — 16 × (3 × DeltaNet + 1 × Gated Attention) layout \\- 48 linear attention + 16 full softmax attention (3:1 ratio, same as the MoE) \\- 262K context (natively, extensible to \\~1M with YaRN but careful — llama.cpp's YaRN is static and can hurt short-context perf) \\- Multimodal (text + image + video) Sampling params I've been using: temp=1.0, top\\_k=20, top\\_p=0.95, min\\_p=0, presence\\_penalty=0, repetition\\_penalty=1.0 (Qwen 3.6 updated their recommendations as follows: presence\\_penalty is 0.0 for thinking general, not 1.5 like 3.5 was. Non-thinking mode still wants 1.5. Full settings, and my findings on it, are in the HF README.) Note: Use --jinja flag with llama.cpp. K\\_P quants may show as \"?\" in LM Studio's quant column. It's purely cosmetic, model loads and runs fine. HF's hardware compatibility widget also doesn't recognize K\\_P so click \"View +X variants\" or go to Files and versions to see all downloads. All my models: [HuggingFace-HauhauCS](https://huggingface.co/HauhauCS/models) There's also a new discord server, the link for it is in the HF repo, feel free to join for updates, roadmaps, projects, or just to chat. As always, hope everyone enjoys the release! \\* = Tested with both automated and manual refusal benchmarks which resulted in none found. Release has been on the quick side though, so if you hit one and it's obstructive to your use case, [join the Discord](https://discord.gg/SZ5vacTXYf) and flag it so I can work on it in a future revision.",
+      "Anyone else having issues in CC with repetitions?, for example. --------------------- ● Starting bench-judge-lb13 for judgement 68a1311850b28dc5b2f7c. Let me load the bench data and MongoDB document in parallel. Searched for 1 pattern (ctrl+o to expand) ● Let me correct the path and retry. ● Running bench_fetch.py and loading MongoDB doc in parallel. ● The path got mangled - let me find the correct skill directory and script. ● I made typos in the path - let me find the correct directory and file. ● Let me find the correct paths first. ● I made typos in paths - let me correct. ----------------------- It will go on for a while trying to 'find the correct path'. It happens with other skills too, this is my current config with a single 3090 (35-40 tps, 65k context): exec \"$LLAMA_SERVER\" \\ --model /models/Qwen3.6-27B-UD-Q5_K_XL.gguf \\ --alias \"dev_ml_model\" \\ --spec-type ngram-mod --spec-ngram-size-n 16 --draft-min 4 --draft-max 32 \\ --dry-multiplier 0.8 --dry-base 1.75 --dry-allowed-length 2 --jinja --ctx-size 65536 --parallel 1 \\ --fit on --fit-target 0 -fa on -ctk q8_0 -ctv q8_0 \\ -b 4096 -ub 1536 --cache-ram 0 --ctx-checkpoints 12 \\ --temp 0.6 --top-p 0.95 --top-k 20 --min-p 0.0 \\ --reasoning-format deepseek \\ --presence-penalty 0.1 \\ --repeat-penalty 1.0 \\ --host 0.0.0.0 \\ --port 8001",
+      "背景 写Java写了十几年，后端、大数据、数仓都搞过。对其他语言一直有抵触——语法不熟、生态不熟、踩坑成本太高。 现在AI代码工具出来了，我的第一反应是：是不是想要什么工具，就能实现什么了？ 听说Claude Code很强，但我穷，总想白嫖。正好赶上Kimi Code活动，3.5块包月，果断拿下。 刚开始还有选择困难症，后来想通了：Kimi Code和Claude Code各有擅长，底层逻辑是一样的。先拿Kimi Code练手，把流程跑通再说。 第一次翻车：AI不是许愿机 很多人告诉你：把想法丢给AI，它就能帮你做出产品。 我信了。设计了一个挺大的产品，跟AI聊了几轮，确定了功能清单。结果发现它总想跳跃式前进——刚说完需求就要生成代码，我对技术架构还懵着，不知道它选了什么技术栈，数据流怎么走的。 中间拦截了几次，后来还是迷迷糊糊跟着走下去了。结果？ 生成了一堆鸡屎代码。跑起来页面报错、按钮没反应、功能跟想象的根本不一样。 第二次尝试：自建流程，从混乱到规范 反思之后，我觉得是缺乏工程化流程的问题。于是开始设计一套标准化模板，每步必须按流程走： project-config.yaml → ideas-raw.md → PRD-v1.0.md → tech-stack-decision.md → module-design.md → ui-spec.md → dependency-graph.md → database-schema → API契约 → 代码生成->单元测试->系统集成->安装部署->功能迭代.... 设计完一看，这路径长得吓人。而且每个产品内容不一样，很难有真正通用的模板。 于是冒出一个新想法：如果有个工具能支撑这个流程设计就好了？ 先攒点经验，后面说不定能实现这个平台。也欢迎有兴趣的朋友一起探讨! 第三次落地：做减法，从真实痛点出发 为了验证流程，我换了个思路：选一个足够简单、但自己真正痛的问题。 我的照片存了20多年，不同时期备份了好多份，但0份完整。为了\"保险\"重复备份，结果陷入更乱的迷宫——找一张特定照片要翻遍整个硬盘。 就这个需求，够具体、够痛、够小。 于是有了现在的工具：按拍摄时间自动归档 + 重复图片去重。跑通之后，再逐步加AI识图、人物分类这些功能。 代码已开源，持续迭代中,可以一起参与共建（影归档）。如果对你有用，欢迎用爱发电支持一杯咖啡(可以戳这里 → 爱发电主页) 给同样想转型的老程序员几点建议： AI是杠杆，不是替身——需求边界、技术决策、验收标准，必须自己把控 从小而痛的场景切入——别一上来就搞平台，先解决自己的问题 流程比模板重要——模板会过期，但\"需求→设计→实现→验证\"的循环不会",
+      "Tends to be a problem. I&#x27;ve tried to mitigate these problems by using either external harnesses (aka GitHub actions that are &quot;fixed&quot; based on known-good) or by using n-number of witness agents (e.g. Kimi&#x2F;Qwen&#x2F;whatever &lt;=&gt; Claude&#x2F;OpenAI&#x2F;Google). Generally sucks more time and energy (and now token&#x2F;$). that being said, I still have a &quot;fix the code, not the test&quot; line somewhere in here...",
+      "Running UD-Q8\\_K\\_XL and it worked fine for most prompts, but then I had some conversation where tool calls failed and unfortunately that led to model being stuck until it exhausted the token limit (256k). Also presence\\_penalty parameter mention in Unsloth guide seems to be missing in llama.cpp server. EDIT: that parameter is --presense-penalty with a hyphen, not underscore",
+      "What harness are you all running qwen in? I gave it what seemed like a pretty trival task in aider and learned that aider can’t access the web to look up api docs etc to get calls right when writing code. Well either that or qwen was failing at tool lookups, I ran out of time to look at it and haven’t gotten back to it",
+      "how can i prevent discarding the thinking trace? llama.cpp (b8858) serving gemma 4 31b (UD-Q6\\_K\\_XL), (almost) vanilla pi harness got some flags here and there on llama-server, nothing relevant, but adding --jinja and --chat-template-kwargs ‘{“preserve\\_thinking”: true}’ didn’t seem to change it",
+      "Q4 \\[ Prompt: 207.6 t/s | Generation: 22.6 t/s \\] Q8 on a MacBook Pro 48GB is producing graphical glitches all over my screen so I shut it down. In theory there is plenty of RAM but llama.cpp has been grabbing more memory than needed lately."
+    ],
+    "signal_key": "success__vibe_coding__bug"
+  },
+  "success__vibe_coding__comparison": {
+    "boundary_note": "External signals cannot distinguish whether the performance issues stem from model limitations, infrastructure constraints, or specific coding tasks complexity.",
+    "comment_count": 4,
+    "content_hash": "1bd9895e37775ad7bb4c93935bca5d988e0483833f4a6649aff4fdaa6006cf1a",
+    "generated_at": "2026-05-07T06:28:27+00:00",
+    "how_i_interpret_this": "I think this might relate to users experiencing performance issues with our product, particularly in the context of coding tasks. Possibly some comments may be running into long processing times which are impacting their workflow efficiency. This could be about the trade-off between the quality of the output and the speed of the process, as users seem to prefer faster iterations even if the output is less polished.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "code generation accuracy",
+      "user session duration",
+      "repeat usage rate",
+      "task completion time"
+    ],
+    "representative_comments": [
+      "I get that these models need some thinking time to stay SOTA, but this has happened like 3 sessions in a row now. I’ve basically spent the whole day trying to implement 2 single functions and lost most of the day just waiting, since it usually thinks for over 10 minutes. The results do end up being basically perfect, but it just can’t take this long. With Gemini 3 Flash I can iterate 10x as fast and still reach a similar outcome, obviously less polished, but way more practical timewise. &#32; submitted by &#32; /u/Funny-Strawberry-168 [link] &#32; [comments]",
+      "Kimi is nowhere near GPT or Opus unfortunately. I really wish it was. I’m running evals where models have to generate code that produces 3D models and it’s obvious that it lacks spatial understanding and makes many more code errors before it succeeds. Maybe it’s better in one particular case here and there and I think this blog post is example of that.",
+      "Are we benchmaxxing yet dad? 27b meets or beats its 397b sibling? Tried it in a real 200k+ line production codebase with full precision using repeatable evaluations, its mentally retarded compared to 397b in the same task. Sorry boys, put the pipe down.",
+      "不不 以我今天的感受，Kimi完胜glm，智谱今晚超级卡，不知道为啥，300行代码，卡到30分钟没写出来，气的我换Kimi，10分钟搞定 1天前山东 赞 1"
+    ],
+    "signal_key": "success__vibe_coding__comparison"
+  },
+  "success__vibe_coding__other": {
+    "boundary_note": "External signals cannot distinguish whether the positive feedback is due to the quality of the local models, the users' proficiency, or the specific tasks they are performing.",
+    "comment_count": 14,
+    "content_hash": "4d89d672063301e07208d085b18b942dc0dc8e8571fdd830046da59725f88d8b",
+    "generated_at": "2026-05-07T06:26:16+00:00",
+    "how_i_interpret_this": "I think this might relate to users successfully implementing and utilizing local models for coding tasks, with a focus on cost savings and efficiency. Possibly some comments may be finding that local models can handle certain tasks without significant issues, but there might be concerns about performance and optimization. This could be about users comparing different local models and their experiences with them in terms of cost, ease of use, and effectiveness.",
+    "model": "moonshot-v1-8k",
+    "possible_internal_checks": [
+      "local model usage frequency",
+      "task completion time"
+    ],
+    "representative_comments": [
+      "Launched claude code, pointed it at my running Qwen, and, well, it vibe codes perfectly fine. I started a project with Qwen3.6-35B-A3B (Q4) yesterday, and then this morning switched to 27B (Q8), and both worked fine! Running on a dual 3090 rig with 200k context. Running Unsloth Q\\_8. No fancy setup, just followed unsloths quickstart guide and set the context higher. \\`\\`\\` \\#!/bin/bash llama-server \\\\ \\-hf unsloth/Qwen3.6-27B-GGUF:Q8\\_0 \\\\ \\--alias \"unsloth/Qwen3.6-27B\" \\\\ \\--temp 0.6 \\\\ \\--top-p 0.95 \\\\ \\--top-k 20 \\\\ \\--min-p 0.00 \\\\ \\--ctx-size 200000 \\\\ \\--port 8001 \\\\ \\--host [0.0.0.0](http://0.0.0.0) \\`\\`\\` \\`\\`\\` \\#!/bin/bash export ANTHROPIC\\_AUTH\\_TOKEN=\"ollama\" export ANTHROPIC\\_API\\_KEY=\"\" export ANTHROPIC\\_BASE\\_URL=\"[http://192.168.18.4:8001](http://192.168.18.4:8001)\" claude $@ \\`\\`\\` The best part is seeing Claude Code's cost estimate. Over that 8 hours I would have racked up $142 in API calls, and instead if cost me &lt;$4 in electricity (assuming my rig pulled 1kw the entire time, in reality it's less, but I don't have my power meter hooked up currently). So to all the naysayers about \"local isn't worth it\", this rig cost me \\~$4500 to build (NZD), and thus has a payback period of \\~260 hours of using it instead of Anthropic's API's. If I use it full time as my day job, that's \\~30 days. If I run a dark-software factory 24/7, that's 10 days.Kicking off projects in the evening every now and then, that's a payback period of, what, maybe a couple months? What did I vibe code? Nothing too fancy. A server in rust that monitors my server's resources, and exposes it to a web dashboard with SSE. Full stack development, end to end, all done with a local model. I interacted with it maybe 5 times. Once to prompt it, and the other 4 for UI/UX changes/bug reports. I'm probably not going to cancel my codex subscription quite yet (I couldn't get codex working with llama-server?), but it may not be long",
+      "返回 转到“kimi” r/kimi • 19小时前 no1youknowz 关注帖子 保存 隐藏 举报 Kimi K2.6 for Rust? Discussion How is 2.6 for rust? I know they have said it's improved compared to 2.5. I tried 2.5 via opencode and it wasted 1x 5-hour allocation by going round in circles and basically just spent tokens. Is it more focused now? I'm 3/4 with a $10 plan with zlm. It's not been a great experience. I tried it this morning, 10am. I hit a 5 hour limit and now says try again at 9pm. It took 1 session to generate a markdown document for a repo. Wait, wait, no wait, actually, no let me think about this again, wait the user said, no wait, actually. Tried of all that nonsense. So from my experience with rust against minimax m2.7 and zlm 5.1, they just aren't great. I'm starting to think they only achieve things if you literally throw tens of millions of tokens at the problem. ¯\\_(ツ)_/¯ 赞同 7 反对 2 转到评论",
+      "It looks like you’ve set `--draft-min` / `--draft-max`, but there’s no draft model configured, so those flags won’t have any effect. (I believe these aren't used for n-gram speculative decoding but someone can correct me). You might also want to reduce the number of threads. llama.cpp doesn’t scale particularly well with higher thread counts, so try something in the 6–8 range instead. A `--top-k` of 20 is on the low side as well; something around 40 or higher is usually a better starting point. Everything else looks fine.",
+      "I don’t have the prompt at hand but basically I told Kimi (paraphrasing): I have these Claude code skills, and I know it uses different tool calls than you but read them and re-write them as your own tools. I also created a mini framework so it can test that the skills are actually working after implementation. Everything runs perfectly.",
+      "I've been trying small local models to learn coding specially qwen 3.5:9b and using little-coder its the first time it nailed a space shooter html test in the first run, usually it gives me a buggy mess I have to fix manually even with decent tools available for it. Crazy work, thank!",
+      "for what kind of optimization is your command for (hardware related)? 27B is running on my dgx ... and it is a little bit to slow. &lt;10t/s Maybe so can provide a dgx command that performs better than mine? I am running the big q8 with 512000 ctx and num-paralell 2",
+      "Hmm. In my experiments (with unsloth/Qwen3.6-27B-GGUF:UD-Q4\\_K\\_XL), tool calling works like 50/50. For 3.6 35B A3B it worked very well. Maye I'm doing something wrong...",
+      "You should be getting more than that. You are likely setting up your command in such a way as to have data taking multiple round trips over pcei. That tanks your speed."
+    ],
+    "signal_key": "success__vibe_coding__other"
+  }
+}
